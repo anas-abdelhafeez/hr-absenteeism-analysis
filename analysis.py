@@ -69,13 +69,13 @@ def main():
     W = T['weekday']; R['weekday'] = W[['weekday', 'events', 'hours', 'events_pct', 'hours_pct', 'avg_hours']].to_dict('records')
     Dw = A.copy(); mon_obs = Dw[Dw.weekday_no == 2].hours.sum() / Dw.hours.sum()
     grp = [g.values for _, g in Dw.groupby('emp_id').weekday_no]; hh = [g.values for _, g in Dw.groupby('emp_id').hours]
-    nullm = []
+    null_mon = []
     for _ in range(4000):
         s = 0
-        for w, h in zip(grp, hh): s += h[rng.permutation(len(w)) < 0].sum() if False else h[(rng.permutation(w) == 2)].sum()
-        nullm.append(s / Dw.hours.sum())
+        for w, h in zip(grp, hh): s += h[rng.permutation(w) == 2].sum()
+        null_mon.append(s / Dw.hours.sum())
     R['monday'] = {'hours_pct': round(100 * float(mon_obs), 1), 'events_pct': round(100 * float((Dw.weekday_no == 2).mean()), 1),
-                   'p_luck': float((np.array(nullm) >= mon_obs).mean())}
+                   'p_luck': float((np.array(null_mon) >= mon_obs).mean())}
     top5ids = set(eh.emp_id.head(5)); X5 = Dw[~Dw.emp_id.isin(top5ids)]
     R['monday']['hours_pct_without_top5'] = round(100 * float(X5[X5.weekday_no == 2].hours.sum() / X5.hours.sum()), 1)
     # ---------------- reasons and planned care

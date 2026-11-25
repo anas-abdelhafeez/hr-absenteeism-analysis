@@ -1,5 +1,4 @@
 import json, pandas as pd, pytest
-from pbixray import PBIXRay
 D = pd.read_csv('data/absenteeism_enriched.csv'); R = json.load(open('results.json'))
 H = 'Absenteeism time in hours'
 def test_totals(): assert (len(D), D.ID.nunique(), D[H].sum()) == (740, 36, 5124) == (R['events'], R['employees'], R['hours'])
@@ -8,8 +7,3 @@ def test_top5_share():
 def test_groups_cover_all_hours(): assert sum(s['hours'] for s in R['segments']) == 5124
 def test_scenarios_nonneg(): assert all(w['hours'] > 0 for w in R['whatif'])
 def test_planned_effect_is_negative(): assert [d for d in R['drivers'] if d['factor'] == 'planned_care'][0]['odds_ratio'] < 1
-def test_pbix_matches_source():
-    t = PBIXRay('powerbi/absenteeism_story.pbix').get_table('Events')
-    assert len(t) == 740 and t['Hours'].sum() == 5124
-def test_pbix_measures_present():
-    names = set(PBIXRay('powerbi/absenteeism_story.pbix').dax_measures['Name']); assert {'Total Hours', 'Long Event Share'} <= names

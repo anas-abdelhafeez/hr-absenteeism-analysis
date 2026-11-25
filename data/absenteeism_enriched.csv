@@ -1,0 +1,741 @@
+ID,Reason for absence,Month of absence,Day of the week,Seasons,Transportation expense,Distance from Residence to Work,Service time,Age,Work load Average/day,Hit target,Disciplinary failure,Education,Son,Social drinker,Social smoker,Pet,Weight,Height,Body mass index,Absenteeism time in hours,reason_name,month_name,dow_name,season_name
+11,26,7,3,1,289,36,13,33,239.554,97,0,1,2,1,0,1,90,172,30,4,Unjustified absence,Jul,Tue,Summer
+36,0,7,3,1,118,13,18,50,239.554,97,1,1,1,1,0,0,98,178,31,0,Unspecified,Jul,Tue,Summer
+3,23,7,4,1,179,51,18,38,239.554,97,0,1,0,1,0,0,89,170,31,2,Medical consultation,Jul,Wed,Summer
+7,7,7,5,1,279,5,14,39,239.554,97,0,1,2,1,1,0,68,168,24,4,Eye diseases,Jul,Thu,Summer
+11,23,7,5,1,289,36,13,33,239.554,97,0,1,2,1,0,1,90,172,30,2,Medical consultation,Jul,Thu,Summer
+3,23,7,6,1,179,51,18,38,239.554,97,0,1,0,1,0,0,89,170,31,2,Medical consultation,Jul,Fri,Summer
+10,22,7,6,1,361,52,3,28,239.554,97,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Jul,Fri,Summer
+20,23,7,6,1,260,50,11,36,239.554,97,0,1,4,1,0,0,65,168,23,4,Medical consultation,Jul,Fri,Summer
+14,19,7,2,1,155,12,14,34,239.554,97,0,1,2,1,0,0,95,196,25,40,Injury/poisoning,Jul,Mon,Summer
+1,22,7,2,1,235,11,14,37,239.554,97,0,3,1,0,0,1,88,172,29,8,Patient follow-up,Jul,Mon,Summer
+20,1,7,2,1,260,50,11,36,239.554,97,0,1,4,1,0,0,65,168,23,8,Certain infectious diseases,Jul,Mon,Summer
+20,1,7,3,1,260,50,11,36,239.554,97,0,1,4,1,0,0,65,168,23,8,Certain infectious diseases,Jul,Tue,Summer
+20,11,7,4,1,260,50,11,36,239.554,97,0,1,4,1,0,0,65,168,23,8,Digestive system,Jul,Wed,Summer
+3,11,7,4,1,179,51,18,38,239.554,97,0,1,0,1,0,0,89,170,31,1,Digestive system,Jul,Wed,Summer
+3,23,7,4,1,179,51,18,38,239.554,97,0,1,0,1,0,0,89,170,31,4,Medical consultation,Jul,Wed,Summer
+24,14,7,6,1,246,25,16,41,239.554,97,0,1,0,1,0,0,67,170,23,8,Genitourinary,Jul,Fri,Summer
+3,23,7,6,1,179,51,18,38,239.554,97,0,1,0,1,0,0,89,170,31,2,Medical consultation,Jul,Fri,Summer
+3,21,7,2,1,179,51,18,38,239.554,97,0,1,0,1,0,0,89,170,31,8,Factors influencing health status,Jul,Mon,Summer
+6,11,7,5,1,189,29,13,33,239.554,97,0,1,2,0,0,2,69,167,25,8,Digestive system,Jul,Thu,Summer
+33,23,8,4,1,248,25,14,47,205.917,92,0,1,2,0,0,1,86,165,32,2,Medical consultation,Aug,Wed,Summer
+18,10,8,4,1,330,16,4,28,205.917,92,0,2,0,0,0,0,84,182,25,8,Respiratory system,Aug,Wed,Summer
+3,11,8,2,1,179,51,18,38,205.917,92,0,1,0,1,0,0,89,170,31,1,Digestive system,Aug,Mon,Summer
+10,13,8,2,1,361,52,3,28,205.917,92,0,1,1,1,0,4,80,172,27,40,Musculoskeletal,Aug,Mon,Summer
+20,28,8,6,1,260,50,11,36,205.917,92,0,1,4,1,0,0,65,168,23,4,Dental consultation,Aug,Fri,Summer
+11,18,8,2,1,289,36,13,33,205.917,92,0,1,2,1,0,1,90,172,30,8,Symptoms not elsewhere classified,Aug,Mon,Summer
+10,25,8,2,1,361,52,3,28,205.917,92,0,1,1,1,0,4,80,172,27,7,Laboratory examination,Aug,Mon,Summer
+11,23,8,3,1,289,36,13,33,205.917,92,0,1,2,1,0,1,90,172,30,1,Medical consultation,Aug,Tue,Summer
+30,28,8,4,1,157,27,6,29,205.917,92,0,1,0,1,1,0,75,185,22,4,Dental consultation,Aug,Wed,Summer
+11,18,8,4,1,289,36,13,33,205.917,92,0,1,2,1,0,1,90,172,30,8,Symptoms not elsewhere classified,Aug,Wed,Summer
+3,23,8,6,1,179,51,18,38,205.917,92,0,1,0,1,0,0,89,170,31,2,Medical consultation,Aug,Fri,Summer
+3,18,8,2,1,179,51,18,38,205.917,92,0,1,0,1,0,0,89,170,31,8,Symptoms not elsewhere classified,Aug,Mon,Summer
+2,18,8,5,1,235,29,12,48,205.917,92,0,1,1,0,1,5,88,163,33,8,Symptoms not elsewhere classified,Aug,Thu,Summer
+1,23,8,5,1,235,11,14,37,205.917,92,0,3,1,0,0,1,88,172,29,4,Medical consultation,Aug,Thu,Summer
+2,18,8,2,1,235,29,12,48,205.917,92,0,1,1,0,1,5,88,163,33,8,Symptoms not elsewhere classified,Aug,Mon,Summer
+3,23,8,2,1,179,51,18,38,205.917,92,0,1,0,1,0,0,89,170,31,2,Medical consultation,Aug,Mon,Summer
+10,23,8,2,1,361,52,3,28,205.917,92,0,1,1,1,0,4,80,172,27,1,Medical consultation,Aug,Mon,Summer
+11,24,8,3,1,289,36,13,33,205.917,92,0,1,2,1,0,1,90,172,30,8,Blood donation,Aug,Tue,Summer
+19,11,8,5,1,291,50,12,32,205.917,92,0,1,0,1,0,0,65,169,23,4,Digestive system,Aug,Thu,Summer
+2,28,8,6,1,235,29,12,48,205.917,92,0,1,1,0,1,5,88,163,33,8,Dental consultation,Aug,Fri,Summer
+20,23,8,6,1,260,50,11,36,205.917,92,0,1,4,1,0,0,65,168,23,4,Medical consultation,Aug,Fri,Summer
+27,23,9,3,1,184,42,7,27,241.476,92,0,1,0,0,0,0,58,167,21,2,Medical consultation,Sep,Tue,Summer
+34,23,9,2,1,118,10,10,37,241.476,92,0,1,0,0,0,0,83,172,28,4,Medical consultation,Sep,Mon,Summer
+3,23,9,3,1,179,51,18,38,241.476,92,0,1,0,1,0,0,89,170,31,4,Medical consultation,Sep,Tue,Summer
+5,19,9,3,1,235,20,13,43,241.476,92,0,1,1,1,0,0,106,167,38,8,Injury/poisoning,Sep,Tue,Summer
+14,23,9,4,1,155,12,14,34,241.476,92,0,1,2,1,0,0,95,196,25,2,Medical consultation,Sep,Wed,Summer
+34,23,9,2,1,118,10,10,37,241.476,92,0,1,0,0,0,0,83,172,28,3,Medical consultation,Sep,Mon,Summer
+3,23,9,3,1,179,51,18,38,241.476,92,0,1,0,1,0,0,89,170,31,3,Medical consultation,Sep,Tue,Summer
+15,23,9,5,1,291,31,12,40,241.476,92,0,1,1,1,0,1,73,171,25,4,Medical consultation,Sep,Thu,Summer
+20,22,9,6,1,260,50,11,36,241.476,92,0,1,4,1,0,0,65,168,23,8,Patient follow-up,Sep,Fri,Summer
+15,14,9,2,4,291,31,12,40,241.476,92,0,1,1,1,0,1,73,171,25,32,Genitourinary,Sep,Mon,Spring
+20,0,9,2,4,260,50,11,36,241.476,92,1,1,4,1,0,0,65,168,23,0,Unspecified,Sep,Mon,Spring
+29,0,9,2,4,225,26,9,28,241.476,92,1,1,1,0,0,2,69,169,24,0,Unspecified,Sep,Mon,Spring
+28,23,9,3,4,225,26,9,28,241.476,92,0,1,1,0,0,2,69,169,24,2,Medical consultation,Sep,Tue,Spring
+34,23,9,3,4,118,10,10,37,241.476,92,0,1,0,0,0,0,83,172,28,2,Medical consultation,Sep,Tue,Spring
+11,0,9,3,4,289,36,13,33,241.476,92,1,1,2,1,0,1,90,172,30,0,Unspecified,Sep,Tue,Spring
+36,0,9,3,4,118,13,18,50,241.476,92,1,1,1,1,0,0,98,178,31,0,Unspecified,Sep,Tue,Spring
+28,18,9,4,4,225,26,9,28,241.476,92,0,1,1,0,0,2,69,169,24,3,Symptoms not elsewhere classified,Sep,Wed,Spring
+3,23,9,4,4,179,51,18,38,241.476,92,0,1,0,1,0,0,89,170,31,3,Medical consultation,Sep,Wed,Spring
+13,0,9,4,4,369,17,12,31,241.476,92,1,1,3,1,0,0,70,169,25,0,Unspecified,Sep,Wed,Spring
+33,23,9,6,4,248,25,14,47,241.476,92,0,1,2,0,0,1,86,165,32,1,Medical consultation,Sep,Fri,Spring
+3,23,9,6,4,179,51,18,38,241.476,92,0,1,0,1,0,0,89,170,31,3,Medical consultation,Sep,Fri,Spring
+20,23,9,6,4,260,50,11,36,241.476,92,0,1,4,1,0,0,65,168,23,4,Medical consultation,Sep,Fri,Spring
+3,23,10,3,4,179,51,18,38,253.465,93,0,1,0,1,0,0,89,170,31,3,Medical consultation,Oct,Tue,Spring
+34,23,10,3,4,118,10,10,37,253.465,93,0,1,0,0,0,0,83,172,28,3,Medical consultation,Oct,Tue,Spring
+36,0,10,4,4,118,13,18,50,253.465,93,1,1,1,1,0,0,98,178,31,0,Unspecified,Oct,Wed,Spring
+22,23,10,5,4,179,26,9,30,253.465,93,0,3,0,0,0,0,56,171,19,1,Medical consultation,Oct,Thu,Spring
+3,23,10,6,4,179,51,18,38,253.465,93,0,1,0,1,0,0,89,170,31,3,Medical consultation,Oct,Fri,Spring
+28,23,10,6,4,225,26,9,28,253.465,93,0,1,1,0,0,2,69,169,24,3,Medical consultation,Oct,Fri,Spring
+34,23,10,3,4,118,10,10,37,253.465,93,0,1,0,0,0,0,83,172,28,3,Medical consultation,Oct,Tue,Spring
+28,23,10,4,4,225,26,9,28,253.465,93,0,1,1,0,0,2,69,169,24,2,Medical consultation,Oct,Wed,Spring
+33,23,10,4,4,248,25,14,47,253.465,93,0,1,2,0,0,1,86,165,32,2,Medical consultation,Oct,Wed,Spring
+15,23,10,5,4,291,31,12,40,253.465,93,0,1,1,1,0,1,73,171,25,5,Medical consultation,Oct,Thu,Spring
+3,23,10,4,4,179,51,18,38,253.465,93,0,1,0,1,0,0,89,170,31,8,Medical consultation,Oct,Wed,Spring
+28,23,10,4,4,225,26,9,28,253.465,93,0,1,1,0,0,2,69,169,24,3,Medical consultation,Oct,Wed,Spring
+20,19,10,5,4,260,50,11,36,253.465,93,0,1,4,1,0,0,65,168,23,16,Injury/poisoning,Oct,Thu,Spring
+15,14,10,3,4,291,31,12,40,253.465,93,0,1,1,1,0,1,73,171,25,8,Genitourinary,Oct,Tue,Spring
+28,28,10,3,4,225,26,9,28,253.465,93,0,1,1,0,0,2,69,169,24,2,Dental consultation,Oct,Tue,Spring
+11,26,10,4,4,289,36,13,33,253.465,93,0,1,2,1,0,1,90,172,30,8,Unjustified absence,Oct,Wed,Spring
+10,23,10,6,4,361,52,3,28,253.465,93,0,1,1,1,0,4,80,172,27,1,Medical consultation,Oct,Fri,Spring
+20,28,10,6,4,260,50,11,36,253.465,93,0,1,4,1,0,0,65,168,23,3,Dental consultation,Oct,Fri,Spring
+3,23,11,5,4,179,51,18,38,306.345,93,0,1,0,1,0,0,89,170,31,1,Medical consultation,Nov,Thu,Spring
+28,23,11,4,4,225,26,9,28,306.345,93,0,1,1,0,0,2,69,169,24,1,Medical consultation,Nov,Wed,Spring
+3,13,11,5,4,179,51,18,38,306.345,93,0,1,0,1,0,0,89,170,31,8,Musculoskeletal,Nov,Thu,Spring
+17,21,11,5,4,179,22,17,40,306.345,93,0,2,2,0,1,0,63,170,22,8,Factors influencing health status,Nov,Thu,Spring
+15,23,11,5,4,291,31,12,40,306.345,93,0,1,1,1,0,1,73,171,25,5,Medical consultation,Nov,Thu,Spring
+14,10,11,2,4,155,12,14,34,306.345,93,0,1,2,1,0,0,95,196,25,32,Respiratory system,Nov,Mon,Spring
+6,22,11,2,4,189,29,13,33,306.345,93,0,1,2,0,0,2,69,167,25,8,Patient follow-up,Nov,Mon,Spring
+15,14,11,2,4,291,31,12,40,306.345,93,0,1,1,1,0,1,73,171,25,40,Genitourinary,Nov,Mon,Spring
+28,23,11,4,4,225,26,9,28,306.345,93,0,1,1,0,0,2,69,169,24,1,Medical consultation,Nov,Wed,Spring
+14,6,11,6,4,155,12,14,34,306.345,93,0,1,2,1,0,0,95,196,25,8,Nervous system,Nov,Fri,Spring
+28,23,11,4,4,225,26,9,28,306.345,93,0,1,1,0,0,2,69,169,24,3,Medical consultation,Nov,Wed,Spring
+17,21,11,4,4,179,22,17,40,306.345,93,0,2,2,0,1,0,63,170,22,8,Factors influencing health status,Nov,Wed,Spring
+28,13,11,6,4,225,26,9,28,306.345,93,0,1,1,0,0,2,69,169,24,3,Musculoskeletal,Nov,Fri,Spring
+20,28,11,6,4,260,50,11,36,306.345,93,0,1,4,1,0,0,65,168,23,4,Dental consultation,Nov,Fri,Spring
+33,28,11,2,4,248,25,14,47,306.345,93,0,1,2,0,0,1,86,165,32,1,Dental consultation,Nov,Mon,Spring
+28,28,11,3,4,225,26,9,28,306.345,93,0,1,1,0,0,2,69,169,24,3,Dental consultation,Nov,Tue,Spring
+11,7,11,4,4,289,36,13,33,306.345,93,0,1,2,1,0,1,90,172,30,24,Eye diseases,Nov,Wed,Spring
+15,23,11,5,4,291,31,12,40,306.345,93,0,1,1,1,0,1,73,171,25,3,Medical consultation,Nov,Thu,Spring
+33,23,12,3,4,248,25,14,47,261.306,97,0,1,2,0,0,1,86,165,32,1,Medical consultation,Dec,Tue,Spring
+34,19,12,3,4,118,10,10,37,261.306,97,0,1,0,0,0,0,83,172,28,64,Injury/poisoning,Dec,Tue,Spring
+36,23,12,4,4,118,13,18,50,261.306,97,0,1,1,1,0,0,98,178,31,2,Medical consultation,Dec,Wed,Spring
+1,26,12,4,4,235,11,14,37,261.306,97,0,3,1,0,0,1,88,172,29,8,Unjustified absence,Dec,Wed,Spring
+28,23,12,5,4,225,26,9,28,261.306,97,0,1,1,0,0,2,69,169,24,2,Medical consultation,Dec,Thu,Spring
+20,26,12,6,4,260,50,11,36,261.306,97,0,1,4,1,0,0,65,168,23,8,Unjustified absence,Dec,Fri,Spring
+34,19,12,3,4,118,10,10,37,261.306,97,0,1,0,0,0,0,83,172,28,56,Injury/poisoning,Dec,Tue,Spring
+10,22,12,4,4,361,52,3,28,261.306,97,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Dec,Wed,Spring
+28,28,12,5,4,225,26,9,28,261.306,97,0,1,1,0,0,2,69,169,24,3,Dental consultation,Dec,Thu,Spring
+20,28,12,6,4,260,50,11,36,261.306,97,0,1,4,1,0,0,65,168,23,3,Dental consultation,Dec,Fri,Spring
+28,23,12,3,4,225,26,9,28,261.306,97,0,1,1,0,0,2,69,169,24,2,Medical consultation,Dec,Tue,Spring
+10,22,12,4,4,361,52,3,28,261.306,97,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Dec,Wed,Spring
+34,27,12,6,4,118,10,10,37,261.306,97,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Dec,Fri,Spring
+24,19,12,6,2,246,25,16,41,261.306,97,0,1,0,1,0,0,67,170,23,8,Injury/poisoning,Dec,Fri,Autumn
+28,23,12,6,2,225,26,9,28,261.306,97,0,1,1,0,0,2,69,169,24,2,Medical consultation,Dec,Fri,Autumn
+28,23,1,4,2,225,26,9,28,308.593,95,0,1,1,0,0,2,69,169,24,1,Medical consultation,Jan,Wed,Autumn
+34,19,1,2,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,1,Injury/poisoning,Jan,Mon,Autumn
+34,27,1,3,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,1,Physiotherapy,Jan,Tue,Autumn
+14,18,1,3,2,155,12,14,34,308.593,95,0,1,2,1,0,0,95,196,25,8,Symptoms not elsewhere classified,Jan,Tue,Autumn
+28,27,1,4,2,225,26,9,28,308.593,95,0,1,1,0,0,2,69,169,24,2,Physiotherapy,Jan,Wed,Autumn
+27,23,1,5,2,184,42,7,27,308.593,95,0,1,0,0,0,0,58,167,21,2,Medical consultation,Jan,Thu,Autumn
+28,28,1,5,2,225,26,9,28,308.593,95,0,1,1,0,0,2,69,169,24,2,Dental consultation,Jan,Thu,Autumn
+28,27,1,6,2,225,26,9,28,308.593,95,0,1,1,0,0,2,69,169,24,1,Physiotherapy,Jan,Fri,Autumn
+34,27,1,2,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Mon,Autumn
+28,27,1,3,2,225,26,9,28,308.593,95,0,1,1,0,0,2,69,169,24,2,Physiotherapy,Jan,Tue,Autumn
+34,27,1,3,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Tue,Autumn
+34,27,1,4,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Wed,Autumn
+34,27,1,5,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Thu,Autumn
+34,27,1,6,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Fri,Autumn
+34,27,1,2,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Mon,Autumn
+34,27,1,3,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Tue,Autumn
+22,18,1,3,2,179,26,9,30,308.593,95,0,3,0,0,0,0,56,171,19,8,Symptoms not elsewhere classified,Jan,Tue,Autumn
+11,18,1,3,2,289,36,13,33,308.593,95,0,1,2,1,0,1,90,172,30,8,Symptoms not elsewhere classified,Jan,Tue,Autumn
+34,27,1,4,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Wed,Autumn
+27,23,1,5,2,184,42,7,27,308.593,95,0,1,0,0,0,0,58,167,21,2,Medical consultation,Jan,Thu,Autumn
+34,27,1,5,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,2,Physiotherapy,Jan,Thu,Autumn
+34,27,1,2,2,118,10,10,37,308.593,95,0,1,0,0,0,0,83,172,28,0,Physiotherapy,Jan,Mon,Autumn
+28,23,1,3,2,225,26,9,28,308.593,95,0,1,1,0,0,2,69,169,24,1,Medical consultation,Jan,Tue,Autumn
+11,22,1,5,2,289,36,13,33,308.593,95,0,1,2,1,0,1,90,172,30,3,Patient follow-up,Jan,Thu,Autumn
+27,23,2,6,2,184,42,7,27,302.585,99,0,1,0,0,0,0,58,167,21,1,Medical consultation,Feb,Fri,Autumn
+24,1,2,4,2,246,25,16,41,302.585,99,0,1,0,1,0,0,67,170,23,8,Certain infectious diseases,Feb,Wed,Autumn
+3,11,2,4,2,179,51,18,38,302.585,99,0,1,0,1,0,0,89,170,31,8,Digestive system,Feb,Wed,Autumn
+14,28,2,5,2,155,12,14,34,302.585,99,0,1,2,1,0,0,95,196,25,2,Dental consultation,Feb,Thu,Autumn
+6,23,2,5,2,189,29,13,33,302.585,99,0,1,2,0,0,2,69,167,25,8,Medical consultation,Feb,Thu,Autumn
+20,28,2,6,2,260,50,11,36,302.585,99,0,1,4,1,0,0,65,168,23,2,Dental consultation,Feb,Fri,Autumn
+11,22,2,6,2,289,36,13,33,302.585,99,0,1,2,1,0,1,90,172,30,8,Patient follow-up,Feb,Fri,Autumn
+31,11,2,2,2,388,15,9,50,302.585,99,0,1,0,0,0,0,76,178,24,8,Digestive system,Feb,Mon,Autumn
+31,1,2,3,2,388,15,9,50,302.585,99,0,1,0,0,0,0,76,178,24,8,Certain infectious diseases,Feb,Tue,Autumn
+28,28,2,2,2,225,26,9,28,302.585,99,0,1,1,0,0,2,69,169,24,2,Dental consultation,Feb,Mon,Autumn
+28,23,2,3,2,225,26,9,28,302.585,99,0,1,1,0,0,2,69,169,24,2,Medical consultation,Feb,Tue,Autumn
+22,23,2,3,2,179,26,9,30,302.585,99,0,3,0,0,0,0,56,171,19,1,Medical consultation,Feb,Tue,Autumn
+27,23,2,3,2,184,42,7,27,302.585,99,0,1,0,0,0,0,58,167,21,8,Medical consultation,Feb,Tue,Autumn
+28,25,2,5,2,225,26,9,28,302.585,99,0,1,1,0,0,2,69,169,24,3,Laboratory examination,Feb,Thu,Autumn
+18,18,2,2,2,330,16,4,28,302.585,99,0,2,0,0,0,0,84,182,25,8,Symptoms not elsewhere classified,Feb,Mon,Autumn
+18,23,2,3,2,330,16,4,28,302.585,99,0,2,0,0,0,0,84,182,25,1,Medical consultation,Feb,Tue,Autumn
+28,23,2,4,2,225,26,9,28,302.585,99,0,1,1,0,0,2,69,169,24,1,Medical consultation,Feb,Wed,Autumn
+6,19,2,5,2,189,29,13,33,302.585,99,0,1,2,0,0,2,69,167,25,8,Injury/poisoning,Feb,Thu,Autumn
+19,28,3,3,2,291,50,12,32,343.253,95,0,1,0,1,0,0,65,169,23,2,Dental consultation,Mar,Tue,Autumn
+20,19,3,3,2,260,50,11,36,343.253,95,0,1,4,1,0,0,65,168,23,8,Injury/poisoning,Mar,Tue,Autumn
+30,19,3,3,2,157,27,6,29,343.253,95,0,1,0,1,1,0,75,185,22,3,Injury/poisoning,Mar,Tue,Autumn
+17,17,3,3,2,179,22,17,40,343.253,95,0,2,2,0,1,0,63,170,22,8,Congenital,Mar,Tue,Autumn
+15,22,3,4,2,291,31,12,40,343.253,95,0,1,1,1,0,1,73,171,25,8,Patient follow-up,Mar,Wed,Autumn
+20,13,3,4,2,260,50,11,36,343.253,95,0,1,4,1,0,0,65,168,23,8,Musculoskeletal,Mar,Wed,Autumn
+22,13,3,5,2,179,26,9,30,343.253,95,0,3,0,0,0,0,56,171,19,8,Musculoskeletal,Mar,Thu,Autumn
+33,14,3,6,2,248,25,14,47,343.253,95,0,1,2,0,0,1,86,165,32,3,Genitourinary,Mar,Fri,Autumn
+20,13,3,6,2,260,50,11,36,343.253,95,0,1,4,1,0,0,65,168,23,40,Musculoskeletal,Mar,Fri,Autumn
+17,11,3,2,2,179,22,17,40,343.253,95,0,2,2,0,1,0,63,170,22,40,Digestive system,Mar,Mon,Autumn
+14,1,3,2,2,155,12,14,34,343.253,95,0,1,2,1,0,0,95,196,25,16,Certain infectious diseases,Mar,Mon,Autumn
+20,26,3,2,2,260,50,11,36,343.253,95,0,1,4,1,0,0,65,168,23,16,Unjustified absence,Mar,Mon,Autumn
+14,13,3,3,2,155,12,14,34,343.253,95,0,1,2,1,0,0,95,196,25,8,Musculoskeletal,Mar,Tue,Autumn
+11,6,3,5,2,289,36,13,33,343.253,95,0,1,2,1,0,1,90,172,30,8,Nervous system,Mar,Thu,Autumn
+17,8,3,5,2,179,22,17,40,343.253,95,0,2,2,0,1,0,63,170,22,8,Ear diseases,Mar,Thu,Autumn
+20,28,3,6,2,260,50,11,36,343.253,95,0,1,4,1,0,0,65,168,23,4,Dental consultation,Mar,Fri,Autumn
+28,23,3,6,2,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,1,Medical consultation,Mar,Fri,Autumn
+7,14,3,2,2,279,5,14,39,343.253,95,0,1,2,1,1,0,68,168,24,8,Genitourinary,Mar,Mon,Autumn
+3,13,3,3,2,179,51,18,38,343.253,95,0,1,0,1,0,0,89,170,31,24,Musculoskeletal,Mar,Tue,Autumn
+28,23,3,4,2,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,2,Medical consultation,Mar,Wed,Autumn
+28,11,3,2,3,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,8,Digestive system,Mar,Mon,Winter
+22,13,3,2,3,179,26,9,30,343.253,95,0,3,0,0,0,0,56,171,19,1,Musculoskeletal,Mar,Mon,Winter
+28,11,3,3,3,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,8,Digestive system,Mar,Tue,Winter
+28,11,3,4,3,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,16,Digestive system,Mar,Wed,Winter
+3,13,3,4,3,179,51,18,38,343.253,95,0,1,0,1,0,0,89,170,31,3,Musculoskeletal,Mar,Wed,Winter
+7,14,3,5,3,279,5,14,39,343.253,95,0,1,2,1,1,0,68,168,24,16,Genitourinary,Mar,Thu,Winter
+28,28,3,6,3,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,2,Dental consultation,Mar,Fri,Winter
+33,14,3,6,3,248,25,14,47,343.253,95,0,1,2,0,0,1,86,165,32,3,Genitourinary,Mar,Fri,Winter
+28,28,3,2,3,225,26,9,28,343.253,95,0,1,1,0,0,2,69,169,24,1,Dental consultation,Mar,Mon,Winter
+15,28,4,4,3,291,31,12,40,326.452,96,0,1,1,1,0,1,73,171,25,1,Dental consultation,Apr,Wed,Winter
+28,23,4,4,3,225,26,9,28,326.452,96,0,1,1,0,0,2,69,169,24,1,Medical consultation,Apr,Wed,Winter
+14,28,4,3,3,155,12,14,34,326.452,96,0,1,2,1,0,0,95,196,25,1,Dental consultation,Apr,Tue,Winter
+24,13,4,4,3,246,25,16,41,326.452,96,0,1,0,1,0,0,67,170,23,24,Musculoskeletal,Apr,Wed,Winter
+14,23,4,5,3,155,12,14,34,326.452,96,0,1,2,1,0,0,95,196,25,1,Medical consultation,Apr,Thu,Winter
+28,28,4,6,3,225,26,9,28,326.452,96,0,1,1,0,0,2,69,169,24,2,Dental consultation,Apr,Fri,Winter
+20,28,4,6,3,260,50,11,36,326.452,96,0,1,4,1,0,0,65,168,23,4,Dental consultation,Apr,Fri,Winter
+3,13,4,4,3,179,51,18,38,326.452,96,0,1,0,1,0,0,89,170,31,24,Musculoskeletal,Apr,Wed,Winter
+36,23,4,5,3,118,13,18,50,326.452,96,0,1,1,1,0,0,98,178,31,1,Medical consultation,Apr,Thu,Winter
+15,23,4,6,3,291,31,12,40,326.452,96,0,1,1,1,0,1,73,171,25,3,Medical consultation,Apr,Fri,Winter
+24,14,4,6,3,246,25,16,41,326.452,96,0,1,0,1,0,0,67,170,23,8,Genitourinary,Apr,Fri,Winter
+15,28,4,6,3,291,31,12,40,326.452,96,0,1,1,1,0,1,73,171,25,1,Dental consultation,Apr,Fri,Winter
+33,28,4,6,3,248,25,14,47,326.452,96,0,1,2,0,0,1,86,165,32,8,Dental consultation,Apr,Fri,Winter
+20,19,4,6,3,260,50,11,36,326.452,96,0,1,4,1,0,0,65,168,23,56,Injury/poisoning,Apr,Fri,Winter
+11,19,4,3,3,289,36,13,33,326.452,96,0,1,2,1,0,1,90,172,30,8,Injury/poisoning,Apr,Tue,Winter
+14,12,4,4,3,155,12,14,34,326.452,96,0,1,2,1,0,0,95,196,25,24,Skin diseases,Apr,Wed,Winter
+23,19,4,4,3,378,49,11,36,326.452,96,0,1,2,0,1,4,65,174,21,8,Injury/poisoning,Apr,Wed,Winter
+11,13,4,5,3,289,36,13,33,326.452,96,0,1,2,1,0,1,90,172,30,16,Musculoskeletal,Apr,Thu,Winter
+1,7,4,6,3,235,11,14,37,326.452,96,0,3,1,0,0,1,88,172,29,3,Eye diseases,Apr,Fri,Winter
+2,0,4,2,3,235,29,12,48,326.452,96,1,1,1,0,1,5,88,163,33,0,Unspecified,Apr,Mon,Winter
+11,13,5,4,3,289,36,13,33,378.884,92,0,1,2,1,0,1,90,172,30,8,Musculoskeletal,May,Wed,Winter
+14,28,5,5,3,155,12,14,34,378.884,92,0,1,2,1,0,0,95,196,25,2,Dental consultation,May,Thu,Winter
+14,28,5,2,3,155,12,14,34,378.884,92,0,1,2,1,0,0,95,196,25,1,Dental consultation,May,Mon,Winter
+3,18,5,3,3,179,51,18,38,378.884,92,0,1,0,1,0,0,89,170,31,8,Symptoms not elsewhere classified,May,Tue,Winter
+28,19,5,3,3,225,26,9,28,378.884,92,0,1,1,0,0,2,69,169,24,8,Injury/poisoning,May,Tue,Winter
+27,7,5,4,3,184,42,7,27,378.884,92,0,1,0,0,0,0,58,167,21,4,Eye diseases,May,Wed,Winter
+14,28,5,2,3,155,12,14,34,378.884,92,0,1,2,1,0,0,95,196,25,2,Dental consultation,May,Mon,Winter
+3,12,5,3,3,179,51,18,38,378.884,92,0,1,0,1,0,0,89,170,31,1,Skin diseases,May,Tue,Winter
+11,13,5,4,3,289,36,13,33,378.884,92,0,1,2,1,0,1,90,172,30,24,Musculoskeletal,May,Wed,Winter
+7,0,5,4,3,279,5,14,39,378.884,92,1,1,2,1,1,0,68,168,24,0,Unspecified,May,Wed,Winter
+18,0,5,4,3,330,16,4,28,378.884,92,1,2,0,0,0,0,84,182,25,0,Unspecified,May,Wed,Winter
+23,0,5,4,3,378,49,11,36,378.884,92,1,1,2,0,1,4,65,174,21,0,Unspecified,May,Wed,Winter
+31,0,5,4,3,388,15,9,50,378.884,92,1,1,0,0,0,0,76,178,24,0,Unspecified,May,Wed,Winter
+3,11,5,3,3,179,51,18,38,378.884,92,0,1,0,1,0,0,89,170,31,1,Digestive system,May,Tue,Winter
+36,13,5,4,3,118,13,18,50,378.884,92,0,1,1,1,0,0,98,178,31,24,Musculoskeletal,May,Wed,Winter
+10,22,5,6,3,361,52,3,28,378.884,92,0,1,1,1,0,4,80,172,27,8,Patient follow-up,May,Fri,Winter
+24,19,6,2,3,246,25,16,41,377.55,94,0,1,0,1,0,0,67,170,23,8,Injury/poisoning,Jun,Mon,Winter
+10,22,6,2,3,361,52,3,28,377.55,94,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Jun,Mon,Winter
+24,10,6,3,3,246,25,16,41,377.55,94,0,1,0,1,0,0,67,170,23,24,Respiratory system,Jun,Tue,Winter
+15,23,6,5,3,291,31,12,40,377.55,94,0,1,1,1,0,1,73,171,25,4,Medical consultation,Jun,Thu,Winter
+24,10,6,6,3,246,25,16,41,377.55,94,0,1,0,1,0,0,67,170,23,8,Respiratory system,Jun,Fri,Winter
+3,11,6,2,3,179,51,18,38,377.55,94,0,1,0,1,0,0,89,170,31,8,Digestive system,Jun,Mon,Winter
+14,23,6,2,3,155,12,14,34,377.55,94,0,1,2,1,0,0,95,196,25,4,Medical consultation,Jun,Mon,Winter
+24,10,6,2,3,246,25,16,41,377.55,94,0,1,0,1,0,0,67,170,23,8,Respiratory system,Jun,Mon,Winter
+36,13,6,4,3,118,13,18,50,377.55,94,0,1,1,1,0,0,98,178,31,8,Musculoskeletal,Jun,Wed,Winter
+1,13,6,6,3,235,11,14,37,377.55,94,0,3,1,0,0,1,88,172,29,16,Musculoskeletal,Jun,Fri,Winter
+36,23,6,3,3,118,13,18,50,377.55,94,0,1,1,1,0,0,98,178,31,1,Medical consultation,Jun,Tue,Winter
+36,13,6,4,3,118,13,18,50,377.55,94,0,1,1,1,0,0,98,178,31,80,Musculoskeletal,Jun,Wed,Winter
+23,22,6,5,3,378,49,11,36,377.55,94,0,1,2,0,1,4,65,174,21,8,Patient follow-up,Jun,Thu,Winter
+3,11,6,6,3,179,51,18,38,377.55,94,0,1,0,1,0,0,89,170,31,2,Digestive system,Jun,Fri,Winter
+32,28,6,2,1,289,48,29,49,377.55,94,0,1,0,0,0,2,108,172,36,2,Dental consultation,Jun,Mon,Summer
+28,28,6,5,1,225,26,9,28,377.55,94,0,1,1,0,0,2,69,169,24,2,Dental consultation,Jun,Thu,Summer
+14,19,7,3,1,155,12,14,34,275.312,98,0,1,2,1,0,0,95,196,25,16,Injury/poisoning,Jul,Tue,Summer
+36,1,7,4,1,118,13,18,50,275.312,98,0,1,1,1,0,0,98,178,31,8,Certain infectious diseases,Jul,Wed,Summer
+34,5,7,6,1,118,10,10,37,275.312,98,0,1,0,0,0,0,83,172,28,8,Mental/behavioural,Jul,Fri,Summer
+34,26,7,6,1,118,10,10,37,275.312,98,0,1,0,0,0,0,83,172,28,4,Unjustified absence,Jul,Fri,Summer
+18,26,7,3,1,330,16,4,28,275.312,98,0,2,0,0,0,0,84,182,25,8,Unjustified absence,Jul,Tue,Summer
+22,18,7,5,1,179,26,9,30,275.312,98,0,3,0,0,0,0,56,171,19,8,Symptoms not elsewhere classified,Jul,Thu,Summer
+14,25,7,6,1,155,12,14,34,275.312,98,0,1,2,1,0,0,95,196,25,2,Laboratory examination,Jul,Fri,Summer
+18,1,7,2,1,330,16,4,28,275.312,98,0,2,0,0,0,0,84,182,25,8,Certain infectious diseases,Jul,Mon,Summer
+18,1,7,3,1,330,16,4,28,275.312,98,0,2,0,0,0,0,84,182,25,8,Certain infectious diseases,Jul,Tue,Summer
+30,25,7,2,1,157,27,6,29,275.312,98,0,1,0,1,1,0,75,185,22,3,Laboratory examination,Jul,Mon,Summer
+10,22,7,3,1,361,52,3,28,275.312,98,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Jul,Tue,Summer
+11,26,7,4,1,289,36,13,33,275.312,98,0,1,2,1,0,1,90,172,30,8,Unjustified absence,Jul,Wed,Summer
+3,26,7,5,1,179,51,18,38,275.312,98,0,1,0,1,0,0,89,170,31,8,Unjustified absence,Jul,Thu,Summer
+11,19,7,2,1,289,36,13,33,275.312,98,0,1,2,1,0,1,90,172,30,32,Injury/poisoning,Jul,Mon,Summer
+11,19,7,5,1,289,36,13,33,275.312,98,0,1,2,1,0,1,90,172,30,8,Injury/poisoning,Jul,Thu,Summer
+20,0,7,5,1,260,50,11,36,275.312,98,1,1,4,1,0,0,65,168,23,0,Unspecified,Jul,Thu,Summer
+11,19,8,6,1,289,36,13,33,265.615,94,0,1,2,1,0,1,90,172,30,8,Injury/poisoning,Aug,Fri,Summer
+30,19,8,6,1,157,27,6,29,265.615,94,0,1,0,1,1,0,75,185,22,3,Injury/poisoning,Aug,Fri,Summer
+11,23,8,2,1,289,36,13,33,265.615,94,0,1,2,1,0,1,90,172,30,1,Medical consultation,Aug,Mon,Summer
+9,18,8,3,1,228,14,16,58,265.615,94,0,1,2,0,0,1,65,172,22,8,Symptoms not elsewhere classified,Aug,Tue,Summer
+26,13,8,5,1,300,26,13,43,265.615,94,0,1,2,1,1,1,77,175,25,1,Musculoskeletal,Aug,Thu,Summer
+26,14,8,5,1,300,26,13,43,265.615,94,0,1,2,1,1,1,77,175,25,2,Genitourinary,Aug,Thu,Summer
+20,28,8,6,1,260,50,11,36,265.615,94,0,1,4,1,0,0,65,168,23,4,Dental consultation,Aug,Fri,Summer
+11,23,8,3,1,289,36,13,33,265.615,94,0,1,2,1,0,1,90,172,30,4,Medical consultation,Aug,Tue,Summer
+33,23,8,4,1,248,25,14,47,265.615,94,0,1,2,0,0,1,86,165,32,1,Medical consultation,Aug,Wed,Summer
+21,11,8,5,1,268,11,8,33,265.615,94,0,2,0,0,0,0,79,178,25,8,Digestive system,Aug,Thu,Summer
+22,23,8,5,1,179,26,9,30,265.615,94,0,3,0,0,0,0,56,171,19,1,Medical consultation,Aug,Thu,Summer
+36,13,8,5,1,118,13,18,50,265.615,94,0,1,1,1,0,0,98,178,31,3,Musculoskeletal,Aug,Thu,Summer
+33,25,8,2,1,248,25,14,47,265.615,94,0,1,2,0,0,1,86,165,32,2,Laboratory examination,Aug,Mon,Summer
+1,23,8,3,1,235,11,14,37,265.615,94,0,3,1,0,0,1,88,172,29,1,Medical consultation,Aug,Tue,Summer
+36,23,8,5,1,118,13,18,50,265.615,94,0,1,1,1,0,0,98,178,31,1,Medical consultation,Aug,Thu,Summer
+1,19,8,5,1,235,11,14,37,265.615,94,0,3,1,0,0,1,88,172,29,8,Injury/poisoning,Aug,Thu,Summer
+10,8,8,3,1,361,52,3,28,265.615,94,0,1,1,1,0,4,80,172,27,8,Ear diseases,Aug,Tue,Summer
+27,6,8,4,1,184,42,7,27,265.615,94,0,1,0,0,0,0,58,167,21,8,Nervous system,Aug,Wed,Summer
+3,11,9,2,1,179,51,18,38,294.217,81,0,1,0,1,0,0,89,170,31,8,Digestive system,Sep,Mon,Summer
+3,23,9,6,1,179,51,18,38,294.217,81,0,1,0,1,0,0,89,170,31,3,Medical consultation,Sep,Fri,Summer
+11,19,9,4,1,289,36,13,33,294.217,81,0,1,2,1,0,1,90,172,30,24,Injury/poisoning,Sep,Wed,Summer
+5,0,9,5,1,235,20,13,43,294.217,81,1,1,1,1,0,0,106,167,38,0,Unspecified,Sep,Thu,Summer
+24,9,9,2,1,246,25,16,41,294.217,81,0,1,0,1,0,0,67,170,23,16,Circulatory system,Sep,Mon,Summer
+15,28,9,3,1,291,31,12,40,294.217,81,0,1,1,1,0,1,73,171,25,3,Dental consultation,Sep,Tue,Summer
+8,0,9,3,1,231,35,14,39,294.217,81,1,1,2,1,0,2,100,170,35,0,Unspecified,Sep,Tue,Summer
+19,0,9,3,1,291,50,12,32,294.217,81,1,1,0,1,0,0,65,169,23,0,Unspecified,Sep,Tue,Summer
+3,13,9,4,1,179,51,18,38,294.217,81,0,1,0,1,0,0,89,170,31,8,Musculoskeletal,Sep,Wed,Summer
+24,9,9,4,1,246,25,16,41,294.217,81,0,1,0,1,0,0,67,170,23,32,Circulatory system,Sep,Wed,Summer
+3,23,9,5,1,179,51,18,38,294.217,81,0,1,0,1,0,0,89,170,31,1,Medical consultation,Sep,Thu,Summer
+15,28,9,6,1,291,31,12,40,294.217,81,0,1,1,1,0,1,73,171,25,4,Dental consultation,Sep,Fri,Summer
+20,28,9,6,1,260,50,11,36,294.217,81,0,1,4,1,0,0,65,168,23,4,Dental consultation,Sep,Fri,Summer
+5,26,9,4,4,235,20,13,43,294.217,81,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Sep,Wed,Spring
+36,28,9,5,4,118,13,18,50,294.217,81,0,1,1,1,0,0,98,178,31,1,Dental consultation,Sep,Thu,Spring
+5,0,9,5,4,235,20,13,43,294.217,81,1,1,1,1,0,0,106,167,38,0,Unspecified,Sep,Thu,Spring
+15,28,9,6,4,291,31,12,40,294.217,81,0,1,1,1,0,1,73,171,25,3,Dental consultation,Sep,Fri,Spring
+15,7,9,2,4,291,31,12,40,294.217,81,0,1,1,1,0,1,73,171,25,40,Eye diseases,Sep,Mon,Spring
+3,13,9,2,4,179,51,18,38,294.217,81,0,1,0,1,0,0,89,170,31,8,Musculoskeletal,Sep,Mon,Spring
+11,24,10,2,4,289,36,13,33,265.017,88,0,1,2,1,0,1,90,172,30,8,Blood donation,Oct,Mon,Spring
+1,26,10,2,4,235,11,14,37,265.017,88,0,3,1,0,0,1,88,172,29,4,Unjustified absence,Oct,Mon,Spring
+11,26,10,2,4,289,36,13,33,265.017,88,0,1,2,1,0,1,90,172,30,8,Unjustified absence,Oct,Mon,Spring
+11,22,10,6,4,289,36,13,33,265.017,88,0,1,2,1,0,1,90,172,30,8,Patient follow-up,Oct,Fri,Spring
+36,0,10,6,4,118,13,18,50,265.017,88,1,1,1,1,0,0,98,178,31,0,Unspecified,Oct,Fri,Spring
+33,0,10,6,4,248,25,14,47,265.017,88,1,1,2,0,0,1,86,165,32,0,Unspecified,Oct,Fri,Spring
+22,1,10,2,4,179,26,9,30,265.017,88,0,3,0,0,0,0,56,171,19,8,Certain infectious diseases,Oct,Mon,Spring
+34,7,10,2,4,118,10,10,37,265.017,88,0,1,0,0,0,0,83,172,28,3,Eye diseases,Oct,Mon,Spring
+13,22,10,2,4,369,17,12,31,265.017,88,0,1,3,1,0,0,70,169,25,8,Patient follow-up,Oct,Mon,Spring
+3,28,10,4,4,179,51,18,38,265.017,88,0,1,0,1,0,0,89,170,31,1,Dental consultation,Oct,Wed,Spring
+22,1,10,4,4,179,26,9,30,265.017,88,0,3,0,0,0,0,56,171,19,64,Certain infectious diseases,Oct,Wed,Spring
+5,0,10,4,4,235,20,13,43,265.017,88,1,1,1,1,0,0,106,167,38,0,Unspecified,Oct,Wed,Spring
+11,19,10,5,4,289,36,13,33,265.017,88,0,1,2,1,0,1,90,172,30,16,Injury/poisoning,Oct,Thu,Spring
+20,28,10,6,4,260,50,11,36,265.017,88,0,1,4,1,0,0,65,168,23,3,Dental consultation,Oct,Fri,Spring
+5,0,10,6,4,235,20,13,43,265.017,88,1,1,1,1,0,0,106,167,38,0,Unspecified,Oct,Fri,Spring
+5,23,10,2,4,235,20,13,43,265.017,88,0,1,1,1,0,0,106,167,38,2,Medical consultation,Oct,Mon,Spring
+5,23,10,2,4,235,20,13,43,265.017,88,0,1,1,1,0,0,106,167,38,2,Medical consultation,Oct,Mon,Spring
+36,28,10,3,4,118,13,18,50,265.017,88,0,1,1,1,0,0,98,178,31,1,Dental consultation,Oct,Tue,Spring
+15,28,10,3,4,291,31,12,40,265.017,88,0,1,1,1,0,1,73,171,25,4,Dental consultation,Oct,Tue,Spring
+22,23,10,5,4,179,26,9,30,265.017,88,0,3,0,0,0,0,56,171,19,16,Medical consultation,Oct,Thu,Spring
+36,28,10,5,4,118,13,18,50,265.017,88,0,1,1,1,0,0,98,178,31,1,Dental consultation,Oct,Thu,Spring
+10,10,10,2,4,361,52,3,28,265.017,88,0,1,1,1,0,4,80,172,27,8,Respiratory system,Oct,Mon,Spring
+20,0,10,3,4,260,50,11,36,265.017,88,1,1,4,1,0,0,65,168,23,0,Unspecified,Oct,Tue,Spring
+15,0,10,3,4,291,31,12,40,265.017,88,1,1,1,1,0,1,73,171,25,0,Unspecified,Oct,Tue,Spring
+30,0,10,3,4,157,27,6,29,265.017,88,1,1,0,1,1,0,75,185,22,0,Unspecified,Oct,Tue,Spring
+22,1,10,4,4,179,26,9,30,265.017,88,0,3,0,0,0,0,56,171,19,5,Certain infectious diseases,Oct,Wed,Spring
+22,7,10,4,4,179,26,9,30,265.017,88,0,3,0,0,0,0,56,171,19,5,Eye diseases,Oct,Wed,Spring
+36,23,10,5,4,118,13,18,50,265.017,88,0,1,1,1,0,0,98,178,31,1,Medical consultation,Oct,Thu,Spring
+34,11,11,2,4,118,10,10,37,284.031,97,0,1,0,0,0,0,83,172,28,8,Digestive system,Nov,Mon,Spring
+33,23,11,2,4,248,25,14,47,284.031,97,0,1,2,0,0,1,86,165,32,2,Medical consultation,Nov,Mon,Spring
+3,6,11,3,4,179,51,18,38,284.031,97,0,1,0,1,0,0,89,170,31,8,Nervous system,Nov,Tue,Spring
+20,28,11,6,4,260,50,11,36,284.031,97,0,1,4,1,0,0,65,168,23,3,Dental consultation,Nov,Fri,Spring
+15,23,11,2,4,291,31,12,40,284.031,97,0,1,1,1,0,1,73,171,25,1,Medical consultation,Nov,Mon,Spring
+23,1,11,2,4,378,49,11,36,284.031,97,0,1,2,0,1,4,65,174,21,8,Certain infectious diseases,Nov,Mon,Spring
+14,11,11,2,4,155,12,14,34,284.031,97,0,1,2,1,0,0,95,196,25,120,Digestive system,Nov,Mon,Spring
+5,26,11,2,4,235,20,13,43,284.031,97,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Nov,Mon,Spring
+18,0,11,3,4,330,16,4,28,284.031,97,1,2,0,0,0,0,84,182,25,0,Unspecified,Nov,Tue,Spring
+1,18,11,4,4,235,11,14,37,284.031,97,0,3,1,0,0,1,88,172,29,1,Symptoms not elsewhere classified,Nov,Wed,Spring
+34,11,11,4,4,118,10,10,37,284.031,97,0,1,0,0,0,0,83,172,28,3,Digestive system,Nov,Wed,Spring
+1,25,11,5,4,235,11,14,37,284.031,97,0,3,1,0,0,1,88,172,29,2,Laboratory examination,Nov,Thu,Spring
+3,28,11,5,4,179,51,18,38,284.031,97,0,1,0,1,0,0,89,170,31,3,Dental consultation,Nov,Thu,Spring
+24,13,11,6,4,246,25,16,41,284.031,97,0,1,0,1,0,0,67,170,23,8,Musculoskeletal,Nov,Fri,Spring
+15,12,11,6,4,291,31,12,40,284.031,97,0,1,1,1,0,1,73,171,25,4,Skin diseases,Nov,Fri,Spring
+24,13,11,2,4,246,25,16,41,284.031,97,0,1,0,1,0,0,67,170,23,8,Musculoskeletal,Nov,Mon,Spring
+3,28,11,3,4,179,51,18,38,284.031,97,0,1,0,1,0,0,89,170,31,1,Dental consultation,Nov,Tue,Spring
+20,10,11,4,4,260,50,11,36,284.031,97,0,1,4,1,0,0,65,168,23,8,Respiratory system,Nov,Wed,Spring
+20,15,11,6,4,260,50,11,36,284.031,97,0,1,4,1,0,0,65,168,23,8,Pregnancy/childbirth,Nov,Fri,Spring
+23,0,11,6,4,378,49,11,36,284.031,97,1,1,2,0,1,4,65,174,21,0,Unspecified,Nov,Fri,Spring
+7,0,11,3,4,279,5,14,39,284.031,97,1,1,2,1,1,0,68,168,24,0,Unspecified,Nov,Tue,Spring
+3,23,11,5,4,179,51,18,38,284.031,97,0,1,0,1,0,0,89,170,31,1,Medical consultation,Nov,Thu,Spring
+28,12,12,2,4,225,26,9,28,236.629,93,0,1,1,0,0,2,69,169,24,3,Skin diseases,Dec,Mon,Spring
+3,28,12,2,4,179,51,18,38,236.629,93,0,1,0,1,0,0,89,170,31,2,Dental consultation,Dec,Mon,Spring
+3,28,12,2,4,179,51,18,38,236.629,93,0,1,0,1,0,0,89,170,31,1,Dental consultation,Dec,Mon,Spring
+1,23,12,2,4,235,11,14,37,236.629,93,0,3,1,0,0,1,88,172,29,3,Medical consultation,Dec,Mon,Spring
+36,28,12,3,4,118,13,18,50,236.629,93,0,1,1,1,0,0,98,178,31,1,Dental consultation,Dec,Tue,Spring
+20,28,12,6,4,260,50,11,36,236.629,93,0,1,4,1,0,0,65,168,23,4,Dental consultation,Dec,Fri,Spring
+24,4,12,5,4,246,25,16,41,236.629,93,0,1,0,1,0,0,67,170,23,8,Endocrine/metabolic,Dec,Thu,Spring
+3,28,12,5,4,179,51,18,38,236.629,93,0,1,0,1,0,0,89,170,31,1,Dental consultation,Dec,Thu,Spring
+3,28,12,6,4,179,51,18,38,236.629,93,0,1,0,1,0,0,89,170,31,1,Dental consultation,Dec,Fri,Spring
+22,23,12,3,4,179,26,9,30,236.629,93,0,3,0,0,0,0,56,171,19,1,Medical consultation,Dec,Tue,Spring
+34,25,12,3,4,118,10,10,37,236.629,93,0,1,0,0,0,0,83,172,28,8,Laboratory examination,Dec,Tue,Spring
+1,25,12,5,4,235,11,14,37,236.629,93,0,3,1,0,0,1,88,172,29,2,Laboratory examination,Dec,Thu,Spring
+3,28,12,6,4,179,51,18,38,236.629,93,0,1,0,1,0,0,89,170,31,1,Dental consultation,Dec,Fri,Spring
+5,13,12,3,2,235,20,13,43,236.629,93,0,1,1,1,0,0,106,167,38,8,Musculoskeletal,Dec,Tue,Autumn
+1,14,12,3,2,235,11,14,37,236.629,93,0,3,1,0,0,1,88,172,29,4,Genitourinary,Dec,Tue,Autumn
+20,26,12,4,2,260,50,11,36,236.629,93,0,1,4,1,0,0,65,168,23,8,Unjustified absence,Dec,Wed,Autumn
+30,28,12,2,2,157,27,6,29,236.629,93,0,1,0,1,1,0,75,185,22,2,Dental consultation,Dec,Mon,Autumn
+3,28,12,2,2,179,51,18,38,236.629,93,0,1,0,1,0,0,89,170,31,3,Dental consultation,Dec,Mon,Autumn
+11,19,12,2,2,289,36,13,33,236.629,93,0,1,2,1,0,1,90,172,30,8,Injury/poisoning,Dec,Mon,Autumn
+28,23,1,4,2,225,26,9,28,330.061,100,0,1,1,0,0,2,69,169,24,5,Medical consultation,Jan,Wed,Autumn
+34,19,1,2,2,118,10,10,37,330.061,100,0,1,0,0,0,0,83,172,28,32,Injury/poisoning,Jan,Mon,Autumn
+14,23,1,2,2,155,12,14,34,330.061,100,0,1,2,1,0,0,95,196,25,2,Medical consultation,Jan,Mon,Autumn
+1,13,1,3,2,235,11,14,37,330.061,100,0,3,1,0,0,1,88,172,29,1,Musculoskeletal,Jan,Tue,Autumn
+14,23,1,3,2,155,12,14,34,330.061,100,0,1,2,1,0,0,95,196,25,4,Medical consultation,Jan,Tue,Autumn
+11,26,1,2,2,289,36,13,33,330.061,100,0,1,2,1,0,1,90,172,30,8,Unjustified absence,Jan,Mon,Autumn
+15,3,1,4,2,291,31,12,40,330.061,100,0,1,1,1,0,1,73,171,25,8,Blood diseases,Jan,Wed,Autumn
+5,26,1,2,2,235,20,13,43,330.061,100,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Jan,Mon,Autumn
+36,26,1,2,2,118,13,18,50,330.061,100,0,1,1,1,0,0,98,178,31,4,Unjustified absence,Jan,Mon,Autumn
+3,28,1,4,2,179,51,18,38,330.061,100,0,1,0,1,0,0,89,170,31,1,Dental consultation,Jan,Wed,Autumn
+3,28,1,6,2,179,51,18,38,330.061,100,0,1,0,1,0,0,89,170,31,1,Dental consultation,Jan,Fri,Autumn
+34,28,2,3,2,118,10,10,37,251.818,96,0,1,0,0,0,0,83,172,28,2,Dental consultation,Feb,Tue,Autumn
+3,27,2,4,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Wed,Autumn
+28,7,2,4,2,225,26,9,28,251.818,96,0,1,1,0,0,2,69,169,24,1,Eye diseases,Feb,Wed,Autumn
+11,22,2,6,2,289,36,13,33,251.818,96,0,1,2,1,0,1,90,172,30,3,Patient follow-up,Feb,Fri,Autumn
+20,28,2,6,2,260,50,11,36,251.818,96,0,1,4,1,0,0,65,168,23,3,Dental consultation,Feb,Fri,Autumn
+3,23,2,6,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Medical consultation,Feb,Fri,Autumn
+3,27,2,2,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Mon,Autumn
+3,27,2,4,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Wed,Autumn
+3,10,2,5,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,8,Respiratory system,Feb,Thu,Autumn
+24,26,2,5,2,246,25,16,41,251.818,96,0,1,0,1,0,0,67,170,23,8,Unjustified absence,Feb,Thu,Autumn
+3,27,2,6,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Fri,Autumn
+6,22,2,2,2,189,29,13,33,251.818,96,0,1,2,0,0,2,69,167,25,8,Patient follow-up,Feb,Mon,Autumn
+3,27,2,2,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Mon,Autumn
+24,23,2,3,2,246,25,16,41,251.818,96,0,1,0,1,0,0,67,170,23,2,Medical consultation,Feb,Tue,Autumn
+15,23,2,3,2,291,31,12,40,251.818,96,0,1,1,1,0,1,73,171,25,2,Medical consultation,Feb,Tue,Autumn
+30,11,2,4,2,157,27,6,29,251.818,96,0,1,0,1,1,0,75,185,22,16,Digestive system,Feb,Wed,Autumn
+3,27,2,4,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Wed,Autumn
+3,27,2,6,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Fri,Autumn
+24,10,2,6,2,246,25,16,41,251.818,96,0,1,0,1,0,0,67,170,23,24,Respiratory system,Feb,Fri,Autumn
+3,27,2,4,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Wed,Autumn
+3,27,2,6,2,179,51,18,38,251.818,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Fri,Autumn
+34,18,3,3,2,118,10,10,37,244.387,98,0,1,0,0,0,0,83,172,28,8,Symptoms not elsewhere classified,Mar,Tue,Autumn
+24,19,3,4,2,246,25,16,41,244.387,98,0,1,0,1,0,0,67,170,23,16,Injury/poisoning,Mar,Wed,Autumn
+24,28,3,6,2,246,25,16,41,244.387,98,0,1,0,1,0,0,67,170,23,2,Dental consultation,Mar,Fri,Autumn
+20,28,3,6,2,260,50,11,36,244.387,98,0,1,4,1,0,0,65,168,23,4,Dental consultation,Mar,Fri,Autumn
+3,28,3,2,2,179,51,18,38,244.387,98,0,1,0,1,0,0,89,170,31,2,Dental consultation,Mar,Mon,Autumn
+1,22,3,2,2,235,11,14,37,244.387,98,0,3,1,0,0,1,88,172,29,8,Patient follow-up,Mar,Mon,Autumn
+17,22,3,3,2,179,22,17,40,244.387,98,0,2,2,0,1,0,63,170,22,8,Patient follow-up,Mar,Tue,Autumn
+23,22,3,3,2,378,49,11,36,244.387,98,0,1,2,0,1,4,65,174,21,8,Patient follow-up,Mar,Tue,Autumn
+3,28,3,2,2,179,51,18,38,244.387,98,0,1,0,1,0,0,89,170,31,16,Dental consultation,Mar,Mon,Autumn
+10,22,3,4,2,361,52,3,28,244.387,98,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Mar,Wed,Autumn
+13,0,3,4,2,369,17,12,31,244.387,98,1,1,3,1,0,0,70,169,25,0,Unspecified,Mar,Wed,Autumn
+1,21,3,5,2,235,11,14,37,244.387,98,0,3,1,0,0,1,88,172,29,8,Factors influencing health status,Mar,Thu,Autumn
+36,23,3,6,3,118,13,18,50,244.387,98,0,1,1,1,0,0,98,178,31,2,Medical consultation,Mar,Fri,Winter
+36,14,3,3,3,118,13,18,50,244.387,98,0,1,1,1,0,0,98,178,31,3,Genitourinary,Mar,Tue,Winter
+36,13,3,4,3,118,13,18,50,244.387,98,0,1,1,1,0,0,98,178,31,8,Musculoskeletal,Mar,Wed,Winter
+1,0,3,5,3,235,11,14,37,244.387,98,1,3,1,0,0,1,88,172,29,0,Unspecified,Mar,Thu,Winter
+24,0,3,5,3,246,25,16,41,244.387,98,1,1,0,1,0,0,67,170,23,0,Unspecified,Mar,Thu,Winter
+36,0,3,5,3,118,13,18,50,244.387,98,1,1,1,1,0,0,98,178,31,0,Unspecified,Mar,Thu,Winter
+3,28,3,6,3,179,51,18,38,244.387,98,0,1,0,1,0,0,89,170,31,8,Dental consultation,Mar,Fri,Winter
+11,22,3,6,3,289,36,13,33,244.387,98,0,1,2,1,0,1,90,172,30,8,Patient follow-up,Mar,Fri,Winter
+20,19,3,2,3,260,50,11,36,244.387,98,0,1,4,1,0,0,65,168,23,8,Injury/poisoning,Mar,Mon,Winter
+24,28,3,3,3,246,25,16,41,244.387,98,0,1,0,1,0,0,67,170,23,2,Dental consultation,Mar,Tue,Winter
+3,28,4,4,3,179,51,18,38,239.409,98,0,1,0,1,0,0,89,170,31,4,Dental consultation,Apr,Wed,Winter
+20,28,4,6,3,260,50,11,36,239.409,98,0,1,4,1,0,0,65,168,23,3,Dental consultation,Apr,Fri,Winter
+18,26,4,6,3,330,16,4,28,239.409,98,0,2,0,0,0,0,84,182,25,4,Unjustified absence,Apr,Fri,Winter
+13,22,4,2,3,369,17,12,31,239.409,98,0,1,3,1,0,0,70,169,25,4,Patient follow-up,Apr,Mon,Winter
+33,26,4,2,3,248,25,14,47,239.409,98,0,1,2,0,0,1,86,165,32,4,Unjustified absence,Apr,Mon,Winter
+18,23,4,4,3,330,16,4,28,239.409,98,0,2,0,0,0,0,84,182,25,8,Medical consultation,Apr,Wed,Winter
+3,28,4,4,3,179,51,18,38,239.409,98,0,1,0,1,0,0,89,170,31,8,Dental consultation,Apr,Wed,Winter
+36,23,4,2,3,118,13,18,50,239.409,98,0,1,1,1,0,0,98,178,31,1,Medical consultation,Apr,Mon,Winter
+36,13,4,4,3,118,13,18,50,239.409,98,0,1,1,1,0,0,98,178,31,120,Musculoskeletal,Apr,Wed,Winter
+26,28,4,6,3,300,26,13,43,239.409,98,0,1,2,1,1,1,77,175,25,8,Dental consultation,Apr,Fri,Winter
+20,28,4,6,3,260,50,11,36,239.409,98,0,1,4,1,0,0,65,168,23,4,Dental consultation,Apr,Fri,Winter
+3,28,4,2,3,179,51,18,38,239.409,98,0,1,0,1,0,0,89,170,31,4,Dental consultation,Apr,Mon,Winter
+34,11,4,4,3,118,10,10,37,239.409,98,0,1,0,0,0,0,83,172,28,2,Digestive system,Apr,Wed,Winter
+5,13,5,2,3,235,20,13,43,246.074,99,0,1,1,1,0,0,106,167,38,16,Musculoskeletal,May,Mon,Winter
+33,23,5,4,3,248,25,14,47,246.074,99,0,1,2,0,0,1,86,165,32,2,Medical consultation,May,Wed,Winter
+13,10,5,2,3,369,17,12,31,246.074,99,0,1,3,1,0,0,70,169,25,8,Respiratory system,May,Mon,Winter
+22,23,5,4,3,179,26,9,30,246.074,99,0,3,0,0,0,0,56,171,19,3,Medical consultation,May,Wed,Winter
+3,28,5,4,3,179,51,18,38,246.074,99,0,1,0,1,0,0,89,170,31,4,Dental consultation,May,Wed,Winter
+10,23,5,5,3,361,52,3,28,246.074,99,0,1,1,1,0,4,80,172,27,1,Medical consultation,May,Thu,Winter
+20,28,5,6,3,260,50,11,36,246.074,99,0,1,4,1,0,0,65,168,23,3,Dental consultation,May,Fri,Winter
+17,11,5,2,3,179,22,17,40,246.074,99,0,2,2,0,1,0,63,170,22,2,Digestive system,May,Mon,Winter
+17,8,5,2,3,179,22,17,40,246.074,99,0,2,2,0,1,0,63,170,22,3,Ear diseases,May,Mon,Winter
+9,18,5,4,3,228,14,16,58,246.074,99,0,1,2,0,0,1,65,172,22,8,Symptoms not elsewhere classified,May,Wed,Winter
+28,25,5,4,3,225,26,9,28,246.074,99,0,1,1,0,0,2,69,169,24,3,Laboratory examination,May,Wed,Winter
+18,13,5,6,3,330,16,4,28,246.074,99,0,2,0,0,0,0,84,182,25,8,Musculoskeletal,May,Fri,Winter
+22,25,5,2,3,179,26,9,30,246.074,99,0,3,0,0,0,0,56,171,19,2,Laboratory examination,May,Mon,Winter
+34,28,5,2,3,118,10,10,37,246.074,99,0,1,0,0,0,0,83,172,28,1,Dental consultation,May,Mon,Winter
+1,1,5,2,3,235,11,14,37,246.074,99,0,3,1,0,0,1,88,172,29,8,Certain infectious diseases,May,Mon,Winter
+22,23,5,4,3,179,26,9,30,246.074,99,0,3,0,0,0,0,56,171,19,3,Medical consultation,May,Wed,Winter
+34,23,6,2,3,118,10,10,37,253.957,95,0,1,0,0,0,0,83,172,28,3,Medical consultation,Jun,Mon,Winter
+3,28,6,2,3,179,51,18,38,253.957,95,0,1,0,1,0,0,89,170,31,3,Dental consultation,Jun,Mon,Winter
+34,28,6,3,3,118,10,10,37,253.957,95,0,1,0,0,0,0,83,172,28,2,Dental consultation,Jun,Tue,Winter
+28,23,6,5,3,225,26,9,28,253.957,95,0,1,1,0,0,2,69,169,24,4,Medical consultation,Jun,Thu,Winter
+20,28,6,6,3,260,50,11,36,253.957,95,0,1,4,1,0,0,65,168,23,4,Dental consultation,Jun,Fri,Winter
+3,0,6,6,3,179,51,18,38,253.957,95,1,1,0,1,0,0,89,170,31,0,Unspecified,Jun,Fri,Winter
+15,13,6,2,3,291,31,12,40,253.957,95,0,1,1,1,0,1,73,171,25,40,Musculoskeletal,Jun,Mon,Winter
+3,28,6,2,3,179,51,18,38,253.957,95,0,1,0,1,0,0,89,170,31,24,Dental consultation,Jun,Mon,Winter
+24,28,6,3,3,246,25,16,41,253.957,95,0,1,0,1,0,0,67,170,23,3,Dental consultation,Jun,Tue,Winter
+3,28,6,2,3,179,51,18,38,253.957,95,0,1,0,1,0,0,89,170,31,4,Dental consultation,Jun,Mon,Winter
+5,26,6,3,3,235,20,13,43,253.957,95,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Jun,Tue,Winter
+3,28,6,2,1,179,51,18,38,253.957,95,0,1,0,1,0,0,89,170,31,2,Dental consultation,Jun,Mon,Summer
+28,23,6,4,1,225,26,9,28,253.957,95,0,1,1,0,0,2,69,169,24,2,Medical consultation,Jun,Wed,Summer
+36,23,6,4,1,118,13,18,50,253.957,95,0,1,1,1,0,0,98,178,31,2,Medical consultation,Jun,Wed,Summer
+3,5,6,4,1,179,51,18,38,253.957,95,0,1,0,1,0,0,89,170,31,8,Mental/behavioural,Jun,Wed,Summer
+22,21,6,4,1,179,26,9,30,253.957,95,0,3,0,0,0,0,56,171,19,2,Factors influencing health status,Jun,Wed,Summer
+24,28,6,6,1,246,25,16,41,253.957,95,0,1,0,1,0,0,67,170,23,2,Dental consultation,Jun,Fri,Summer
+18,11,6,3,1,330,16,4,28,253.957,95,0,2,0,0,0,0,84,182,25,1,Digestive system,Jun,Tue,Summer
+1,13,6,3,1,235,11,14,37,253.957,95,0,3,1,0,0,1,88,172,29,8,Musculoskeletal,Jun,Tue,Summer
+22,23,7,5,1,179,26,9,30,230.29,92,0,3,0,0,0,0,56,171,19,2,Medical consultation,Jul,Thu,Summer
+28,25,7,5,1,225,26,9,28,230.29,92,0,1,1,0,0,2,69,169,24,4,Laboratory examination,Jul,Thu,Summer
+20,13,7,6,1,260,50,11,36,230.29,92,0,1,4,1,0,0,65,168,23,8,Musculoskeletal,Jul,Fri,Summer
+21,7,7,2,1,268,11,8,33,230.29,92,0,2,0,0,0,0,79,178,25,8,Eye diseases,Jul,Mon,Summer
+18,25,7,6,1,330,16,4,28,230.29,92,0,2,0,0,0,0,84,182,25,8,Laboratory examination,Jul,Fri,Summer
+34,26,7,6,1,118,10,10,37,230.29,92,0,1,0,0,0,0,83,172,28,8,Unjustified absence,Jul,Fri,Summer
+20,26,7,2,1,260,50,11,36,230.29,92,0,1,4,1,0,0,65,168,23,4,Unjustified absence,Jul,Mon,Summer
+34,28,7,3,1,118,10,10,37,230.29,92,0,1,0,0,0,0,83,172,28,8,Dental consultation,Jul,Tue,Summer
+26,15,7,2,1,300,26,13,43,230.29,92,0,1,2,1,1,1,77,175,25,8,Pregnancy/childbirth,Jul,Mon,Summer
+2,23,7,2,1,235,29,12,48,230.29,92,0,1,1,0,1,5,88,163,33,1,Medical consultation,Jul,Mon,Summer
+24,28,7,3,1,246,25,16,41,230.29,92,0,1,0,1,0,0,67,170,23,2,Dental consultation,Jul,Tue,Summer
+28,9,7,3,1,225,26,9,28,230.29,92,0,1,1,0,0,2,69,169,24,112,Circulatory system,Jul,Tue,Summer
+3,28,7,3,1,179,51,18,38,230.29,92,0,1,0,1,0,0,89,170,31,1,Dental consultation,Jul,Tue,Summer
+36,23,7,6,1,118,13,18,50,230.29,92,0,1,1,1,0,0,98,178,31,1,Medical consultation,Jul,Fri,Summer
+10,22,7,6,1,361,52,3,28,230.29,92,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Jul,Fri,Summer
+11,22,7,2,1,289,36,13,33,230.29,92,0,1,2,1,0,1,90,172,30,8,Patient follow-up,Jul,Mon,Summer
+5,26,7,2,1,235,20,13,43,230.29,92,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Jul,Mon,Summer
+24,28,7,3,1,246,25,16,41,230.29,92,0,1,0,1,0,0,67,170,23,2,Dental consultation,Jul,Tue,Summer
+15,28,7,5,1,291,31,12,40,230.29,92,0,1,1,1,0,1,73,171,25,1,Dental consultation,Jul,Thu,Summer
+7,23,7,5,1,279,5,14,39,230.29,92,0,1,2,1,1,0,68,168,24,2,Medical consultation,Jul,Thu,Summer
+3,25,8,5,1,179,51,18,38,249.797,93,0,1,0,1,0,0,89,170,31,4,Laboratory examination,Aug,Thu,Summer
+17,25,8,2,1,179,22,17,40,249.797,93,0,2,2,0,1,0,63,170,22,1,Laboratory examination,Aug,Mon,Summer
+24,28,8,3,1,246,25,16,41,249.797,93,0,1,0,1,0,0,67,170,23,4,Dental consultation,Aug,Tue,Summer
+34,28,8,3,1,118,10,10,37,249.797,93,0,1,0,0,0,0,83,172,28,4,Dental consultation,Aug,Tue,Summer
+11,26,8,3,1,289,36,13,33,249.797,93,0,1,2,1,0,1,90,172,30,8,Unjustified absence,Aug,Tue,Summer
+5,26,8,3,1,235,20,13,43,249.797,93,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Aug,Tue,Summer
+15,28,8,5,1,291,31,12,40,249.797,93,0,1,1,1,0,1,73,171,25,4,Dental consultation,Aug,Thu,Summer
+3,25,8,2,1,179,51,18,38,249.797,93,0,1,0,1,0,0,89,170,31,4,Laboratory examination,Aug,Mon,Summer
+17,25,8,3,1,179,22,17,40,249.797,93,0,2,2,0,1,0,63,170,22,8,Laboratory examination,Aug,Tue,Summer
+18,23,8,5,1,330,16,4,28,249.797,93,0,2,0,0,0,0,84,182,25,16,Medical consultation,Aug,Thu,Summer
+1,23,8,3,1,235,11,14,37,249.797,93,0,3,1,0,0,1,88,172,29,4,Medical consultation,Aug,Tue,Summer
+24,28,8,3,1,246,25,16,41,249.797,93,0,1,0,1,0,0,67,170,23,1,Dental consultation,Aug,Tue,Summer
+34,28,8,3,1,118,10,10,37,249.797,93,0,1,0,0,0,0,83,172,28,5,Dental consultation,Aug,Tue,Summer
+15,28,8,5,1,291,31,12,40,249.797,93,0,1,1,1,0,1,73,171,25,2,Dental consultation,Aug,Thu,Summer
+20,28,8,2,1,260,50,11,36,249.797,93,0,1,4,1,0,0,65,168,23,3,Dental consultation,Aug,Mon,Summer
+24,28,9,3,1,246,25,16,41,261.756,87,0,1,0,1,0,0,67,170,23,1,Dental consultation,Sep,Tue,Summer
+24,28,9,3,1,246,25,16,41,261.756,87,0,1,0,1,0,0,67,170,23,1,Dental consultation,Sep,Tue,Summer
+34,28,9,3,1,118,10,10,37,261.756,87,0,1,0,0,0,0,83,172,28,3,Dental consultation,Sep,Tue,Summer
+14,23,9,3,1,155,12,14,34,261.756,87,0,1,2,1,0,0,95,196,25,2,Medical consultation,Sep,Tue,Summer
+15,28,9,5,1,291,31,12,40,261.756,87,0,1,1,1,0,1,73,171,25,2,Dental consultation,Sep,Thu,Summer
+22,23,9,6,1,179,26,9,30,261.756,87,0,3,0,0,0,0,56,171,19,8,Medical consultation,Sep,Fri,Summer
+33,23,9,6,1,248,25,14,47,261.756,87,0,1,2,0,0,1,86,165,32,1,Medical consultation,Sep,Fri,Summer
+3,23,9,2,1,179,51,18,38,261.756,87,0,1,0,1,0,0,89,170,31,4,Medical consultation,Sep,Mon,Summer
+28,23,9,4,1,225,26,9,28,261.756,87,0,1,1,0,0,2,69,169,24,1,Medical consultation,Sep,Wed,Summer
+22,23,9,2,1,179,26,9,30,261.756,87,0,3,0,0,0,0,56,171,19,2,Medical consultation,Sep,Mon,Summer
+13,23,9,3,4,369,17,12,31,261.756,87,0,1,3,1,0,0,70,169,25,8,Medical consultation,Sep,Tue,Spring
+10,22,9,3,4,361,52,3,28,261.756,87,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Sep,Tue,Spring
+32,4,10,5,4,289,48,29,49,284.853,91,0,1,0,0,0,2,108,172,36,1,Endocrine/metabolic,Oct,Thu,Spring
+25,11,10,5,4,235,16,8,32,284.853,91,0,3,0,0,0,0,75,178,25,3,Digestive system,Oct,Thu,Spring
+24,26,10,6,4,246,25,16,41,284.853,91,0,1,0,1,0,0,67,170,23,8,Unjustified absence,Oct,Fri,Spring
+32,14,10,4,4,289,48,29,49,284.853,91,0,1,0,0,0,2,108,172,36,3,Genitourinary,Oct,Wed,Spring
+15,28,10,4,4,291,31,12,40,284.853,91,0,1,1,1,0,1,73,171,25,2,Dental consultation,Oct,Wed,Spring
+34,23,10,3,4,118,10,10,37,284.853,91,0,1,0,0,0,0,83,172,28,2,Medical consultation,Oct,Tue,Spring
+32,23,10,5,4,289,48,29,49,284.853,91,0,1,0,0,0,2,108,172,36,2,Medical consultation,Oct,Thu,Spring
+15,23,10,6,4,291,31,12,40,284.853,91,0,1,1,1,0,1,73,171,25,1,Medical consultation,Oct,Fri,Spring
+28,23,10,3,4,225,26,9,28,284.853,91,0,1,1,0,0,2,69,169,24,2,Medical consultation,Oct,Tue,Spring
+13,23,10,3,4,369,17,12,31,284.853,91,0,1,3,1,0,0,70,169,25,8,Medical consultation,Oct,Tue,Spring
+13,23,10,3,4,369,17,12,31,284.853,91,0,1,3,1,0,0,70,169,25,3,Medical consultation,Oct,Tue,Spring
+28,23,10,3,4,225,26,9,28,284.853,91,0,1,1,0,0,2,69,169,24,4,Medical consultation,Oct,Tue,Spring
+13,26,10,3,4,369,17,12,31,284.853,91,0,1,3,1,0,0,70,169,25,8,Unjustified absence,Oct,Tue,Spring
+3,28,10,4,4,179,51,18,38,284.853,91,0,1,0,1,0,0,89,170,31,3,Dental consultation,Oct,Wed,Spring
+9,1,10,4,4,228,14,16,58,284.853,91,0,1,2,0,0,1,65,172,22,1,Certain infectious diseases,Oct,Wed,Spring
+15,23,10,4,4,291,31,12,40,284.853,91,0,1,1,1,0,1,73,171,25,1,Medical consultation,Oct,Wed,Spring
+13,10,10,5,4,369,17,12,31,284.853,91,0,1,3,1,0,0,70,169,25,8,Respiratory system,Oct,Thu,Spring
+28,13,10,5,4,225,26,9,28,284.853,91,0,1,1,0,0,2,69,169,24,1,Musculoskeletal,Oct,Thu,Spring
+13,10,10,6,4,369,17,12,31,284.853,91,0,1,3,1,0,0,70,169,25,8,Respiratory system,Oct,Fri,Spring
+28,10,10,6,4,225,26,9,28,284.853,91,0,1,1,0,0,2,69,169,24,3,Respiratory system,Oct,Fri,Spring
+6,23,10,2,4,189,29,13,33,284.853,91,0,1,2,0,0,2,69,167,25,8,Medical consultation,Oct,Mon,Spring
+25,6,10,2,4,235,16,8,32,284.853,91,0,3,0,0,0,0,75,178,25,8,Nervous system,Oct,Mon,Spring
+33,10,10,2,4,248,25,14,47,284.853,91,0,1,2,0,0,1,86,165,32,8,Respiratory system,Oct,Mon,Spring
+28,0,10,2,4,225,26,9,28,284.853,91,1,1,1,0,0,2,69,169,24,0,Unspecified,Oct,Mon,Spring
+28,13,10,3,4,225,26,9,28,284.853,91,0,1,1,0,0,2,69,169,24,3,Musculoskeletal,Oct,Tue,Spring
+3,21,11,3,4,179,51,18,38,268.519,93,0,1,0,1,0,0,89,170,31,1,Factors influencing health status,Nov,Tue,Spring
+34,28,11,4,4,118,10,10,37,268.519,93,0,1,0,0,0,0,83,172,28,3,Dental consultation,Nov,Wed,Spring
+18,2,11,4,4,330,16,4,28,268.519,93,0,2,0,0,0,0,84,182,25,24,Neoplasms,Nov,Wed,Spring
+3,28,11,6,4,179,51,18,38,268.519,93,0,1,0,1,0,0,89,170,31,1,Dental consultation,Nov,Fri,Spring
+34,9,11,3,4,118,10,10,37,268.519,93,0,1,0,0,0,0,83,172,28,8,Circulatory system,Nov,Tue,Spring
+11,24,11,4,4,289,36,13,33,268.519,93,0,1,2,1,0,1,90,172,30,8,Blood donation,Nov,Wed,Spring
+25,1,11,6,4,235,16,8,32,268.519,93,0,3,0,0,0,0,75,178,25,8,Certain infectious diseases,Nov,Fri,Spring
+28,23,11,6,4,225,26,9,28,268.519,93,0,1,1,0,0,2,69,169,24,4,Medical consultation,Nov,Fri,Spring
+10,22,11,3,4,361,52,3,28,268.519,93,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Nov,Tue,Spring
+15,28,11,4,4,291,31,12,40,268.519,93,0,1,1,1,0,1,73,171,25,2,Dental consultation,Nov,Wed,Spring
+34,13,11,5,4,118,10,10,37,268.519,93,0,1,0,0,0,0,83,172,28,2,Musculoskeletal,Nov,Thu,Spring
+28,14,11,5,4,225,26,9,28,268.519,93,0,1,1,0,0,2,69,169,24,3,Genitourinary,Nov,Thu,Spring
+3,28,11,2,4,179,51,18,38,268.519,93,0,1,0,1,0,0,89,170,31,1,Dental consultation,Nov,Mon,Spring
+34,23,11,2,4,118,10,10,37,268.519,93,0,1,0,0,0,0,83,172,28,8,Medical consultation,Nov,Mon,Spring
+34,8,11,3,4,118,10,10,37,268.519,93,0,1,0,0,0,0,83,172,28,8,Ear diseases,Nov,Tue,Spring
+28,23,11,3,4,225,26,9,28,268.519,93,0,1,1,0,0,2,69,169,24,2,Medical consultation,Nov,Tue,Spring
+15,0,11,3,4,291,31,12,40,268.519,93,1,1,1,1,0,1,73,171,25,0,Unspecified,Nov,Tue,Spring
+11,0,11,4,4,289,36,13,33,268.519,93,1,1,2,1,0,1,90,172,30,0,Unspecified,Nov,Wed,Spring
+33,14,11,5,4,248,25,14,47,268.519,93,0,1,2,0,0,1,86,165,32,4,Genitourinary,Nov,Thu,Spring
+5,0,11,5,4,235,20,13,43,268.519,93,1,1,1,1,0,0,106,167,38,0,Unspecified,Nov,Thu,Spring
+28,23,11,6,4,225,26,9,28,268.519,93,0,1,1,0,0,2,69,169,24,2,Medical consultation,Nov,Fri,Spring
+13,26,11,6,4,369,17,12,31,268.519,93,0,1,3,1,0,0,70,169,25,8,Unjustified absence,Nov,Fri,Spring
+10,28,11,2,4,361,52,3,28,268.519,93,0,1,1,1,0,4,80,172,27,2,Dental consultation,Nov,Mon,Spring
+3,13,12,3,4,179,51,18,38,280.549,98,0,1,0,1,0,0,89,170,31,32,Musculoskeletal,Dec,Tue,Spring
+15,28,12,4,4,291,31,12,40,280.549,98,0,1,1,1,0,1,73,171,25,1,Dental consultation,Dec,Wed,Spring
+28,23,12,4,4,225,26,9,28,280.549,98,0,1,1,0,0,2,69,169,24,3,Medical consultation,Dec,Wed,Spring
+22,13,12,6,4,179,26,9,30,280.549,98,0,3,0,0,0,0,56,171,19,1,Musculoskeletal,Dec,Fri,Spring
+28,23,12,6,4,225,26,9,28,280.549,98,0,1,1,0,0,2,69,169,24,3,Medical consultation,Dec,Fri,Spring
+28,23,12,4,4,225,26,9,28,280.549,98,0,1,1,0,0,2,69,169,24,3,Medical consultation,Dec,Wed,Spring
+10,14,12,5,4,361,52,3,28,280.549,98,0,1,1,1,0,4,80,172,27,4,Genitourinary,Dec,Thu,Spring
+17,18,12,6,4,179,22,17,40,280.549,98,0,2,2,0,1,0,63,170,22,2,Symptoms not elsewhere classified,Dec,Fri,Spring
+5,26,12,6,4,235,20,13,43,280.549,98,0,1,1,1,0,0,106,167,38,8,Unjustified absence,Dec,Fri,Spring
+12,18,12,2,4,233,51,1,31,280.549,98,0,2,1,1,0,8,68,178,21,8,Symptoms not elsewhere classified,Dec,Mon,Spring
+22,13,12,3,4,179,26,9,30,280.549,98,0,3,0,0,0,0,56,171,19,16,Musculoskeletal,Dec,Tue,Spring
+28,23,12,3,4,225,26,9,28,280.549,98,0,1,1,0,0,2,69,169,24,2,Medical consultation,Dec,Tue,Spring
+28,23,12,5,4,225,26,9,28,280.549,98,0,1,1,0,0,2,69,169,24,3,Medical consultation,Dec,Thu,Spring
+28,23,12,2,4,225,26,9,28,280.549,98,0,1,1,0,0,2,69,169,24,2,Medical consultation,Dec,Mon,Spring
+14,18,12,3,2,155,12,14,34,280.549,98,0,1,2,1,0,0,95,196,25,80,Symptoms not elsewhere classified,Dec,Tue,Autumn
+22,12,1,2,2,179,26,9,30,313.532,96,0,3,0,0,0,0,56,171,19,24,Skin diseases,Jan,Mon,Autumn
+22,12,1,5,2,179,26,9,30,313.532,96,0,3,0,0,0,0,56,171,19,16,Skin diseases,Jan,Thu,Autumn
+17,25,1,5,2,179,22,17,40,313.532,96,0,2,2,0,1,0,63,170,22,2,Laboratory examination,Jan,Thu,Autumn
+17,25,1,6,2,179,22,17,40,313.532,96,0,2,2,0,1,0,63,170,22,2,Laboratory examination,Jan,Fri,Autumn
+22,13,1,2,2,179,26,9,30,313.532,96,0,3,0,0,0,0,56,171,19,3,Musculoskeletal,Jan,Mon,Autumn
+17,25,1,4,2,179,22,17,40,313.532,96,0,2,2,0,1,0,63,170,22,2,Laboratory examination,Jan,Wed,Autumn
+32,10,1,5,2,289,48,29,49,313.532,96,0,1,0,0,0,2,108,172,36,8,Respiratory system,Jan,Thu,Autumn
+17,18,1,6,2,179,22,17,40,313.532,96,0,2,2,0,1,0,63,170,22,3,Symptoms not elsewhere classified,Jan,Fri,Autumn
+22,27,1,2,2,179,26,9,30,313.532,96,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Jan,Mon,Autumn
+14,18,1,3,2,155,12,14,34,313.532,96,0,1,2,1,0,0,95,196,25,8,Symptoms not elsewhere classified,Jan,Tue,Autumn
+22,27,1,4,2,179,26,9,30,313.532,96,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Jan,Wed,Autumn
+3,27,1,4,2,179,51,18,38,313.532,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Jan,Wed,Autumn
+11,13,1,4,2,289,36,13,33,313.532,96,0,1,2,1,0,1,90,172,30,8,Musculoskeletal,Jan,Wed,Autumn
+3,27,1,5,2,179,51,18,38,313.532,96,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Jan,Thu,Autumn
+3,27,1,6,2,179,51,18,38,313.532,96,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Jan,Fri,Autumn
+3,13,2,3,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,8,Musculoskeletal,Feb,Tue,Autumn
+28,23,2,3,2,225,26,9,28,264.249,97,0,1,1,0,0,2,69,169,24,3,Medical consultation,Feb,Tue,Autumn
+33,1,2,4,2,248,25,14,47,264.249,97,0,1,2,0,0,1,86,165,32,8,Certain infectious diseases,Feb,Wed,Autumn
+3,27,2,4,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Wed,Autumn
+28,28,2,5,2,225,26,9,28,264.249,97,0,1,1,0,0,2,69,169,24,3,Dental consultation,Feb,Thu,Autumn
+3,27,2,5,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Thu,Autumn
+22,27,2,5,2,179,26,9,30,264.249,97,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Feb,Thu,Autumn
+29,28,2,6,2,225,15,15,41,264.249,97,0,4,2,1,0,2,94,182,28,2,Dental consultation,Feb,Fri,Autumn
+3,27,2,6,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Fri,Autumn
+12,19,2,2,2,233,51,1,31,264.249,97,0,2,1,1,0,8,68,178,21,2,Injury/poisoning,Feb,Mon,Autumn
+3,27,2,2,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Mon,Autumn
+28,7,2,3,2,225,26,9,28,264.249,97,0,1,1,0,0,2,69,169,24,8,Eye diseases,Feb,Tue,Autumn
+3,27,2,4,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Wed,Autumn
+3,27,2,5,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Thu,Autumn
+28,25,2,5,2,225,26,9,28,264.249,97,0,1,1,0,0,2,69,169,24,3,Laboratory examination,Feb,Thu,Autumn
+22,13,2,5,2,179,26,9,30,264.249,97,0,3,0,0,0,0,56,171,19,2,Musculoskeletal,Feb,Thu,Autumn
+17,23,2,6,2,179,22,17,40,264.249,97,0,2,2,0,1,0,63,170,22,2,Medical consultation,Feb,Fri,Autumn
+3,27,2,6,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Feb,Fri,Autumn
+12,12,2,4,2,233,51,1,31,264.249,97,0,2,1,1,0,8,68,178,21,3,Skin diseases,Feb,Wed,Autumn
+22,27,2,4,2,179,26,9,30,264.249,97,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Feb,Wed,Autumn
+3,27,2,4,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Wed,Autumn
+3,13,2,5,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,8,Musculoskeletal,Feb,Thu,Autumn
+3,27,2,6,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Fri,Autumn
+14,25,2,2,2,155,12,14,34,264.249,97,0,1,2,1,0,0,95,196,25,5,Laboratory examination,Feb,Mon,Autumn
+25,25,2,2,2,235,16,8,32,264.249,97,0,3,0,0,0,0,75,178,25,3,Laboratory examination,Feb,Mon,Autumn
+3,27,2,2,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Mon,Autumn
+28,7,2,2,2,225,26,9,28,264.249,97,0,1,1,0,0,2,69,169,24,2,Eye diseases,Feb,Mon,Autumn
+3,27,2,3,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Tue,Autumn
+33,23,2,3,2,248,25,14,47,264.249,97,0,1,2,0,0,1,86,165,32,2,Medical consultation,Feb,Tue,Autumn
+28,25,2,3,2,225,26,9,28,264.249,97,0,1,1,0,0,2,69,169,24,2,Laboratory examination,Feb,Tue,Autumn
+3,27,2,4,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Wed,Autumn
+3,27,2,5,2,179,51,18,38,264.249,97,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Feb,Thu,Autumn
+25,25,2,6,2,235,16,8,32,264.249,97,0,3,0,0,0,0,75,178,25,2,Laboratory examination,Feb,Fri,Autumn
+3,27,3,2,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Mar,Mon,Autumn
+33,23,3,2,2,248,25,14,47,222.196,99,0,1,2,0,0,1,86,165,32,2,Medical consultation,Mar,Mon,Autumn
+9,25,3,3,2,228,14,16,58,222.196,99,0,1,2,0,0,1,65,172,22,3,Laboratory examination,Mar,Tue,Autumn
+33,25,3,3,2,248,25,14,47,222.196,99,0,1,2,0,0,1,86,165,32,3,Laboratory examination,Mar,Tue,Autumn
+9,12,3,3,2,228,14,16,58,222.196,99,0,1,2,0,0,1,65,172,22,112,Skin diseases,Mar,Tue,Autumn
+3,27,3,4,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Mar,Wed,Autumn
+28,27,3,5,2,225,26,9,28,222.196,99,0,1,1,0,0,2,69,169,24,2,Physiotherapy,Mar,Thu,Autumn
+3,27,3,5,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Thu,Autumn
+28,25,3,5,2,225,26,9,28,222.196,99,0,1,1,0,0,2,69,169,24,2,Laboratory examination,Mar,Thu,Autumn
+22,27,3,6,2,179,26,9,30,222.196,99,0,3,0,0,0,0,56,171,19,3,Physiotherapy,Mar,Fri,Autumn
+25,25,3,2,2,235,16,8,32,222.196,99,0,3,0,0,0,0,75,178,25,3,Laboratory examination,Mar,Mon,Autumn
+10,19,3,2,2,361,52,3,28,222.196,99,0,1,1,1,0,4,80,172,27,8,Injury/poisoning,Mar,Mon,Autumn
+3,13,3,3,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,8,Musculoskeletal,Mar,Tue,Autumn
+3,27,3,4,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Mar,Wed,Autumn
+3,27,3,5,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Thu,Autumn
+22,27,3,6,2,179,26,9,30,222.196,99,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Mar,Fri,Autumn
+3,10,3,2,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,4,Respiratory system,Mar,Mon,Autumn
+33,13,3,2,2,248,25,14,47,222.196,99,0,1,2,0,0,1,86,165,32,2,Musculoskeletal,Mar,Mon,Autumn
+3,27,3,2,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Mon,Autumn
+28,7,3,2,2,225,26,9,28,222.196,99,0,1,1,0,0,2,69,169,24,8,Eye diseases,Mar,Mon,Autumn
+3,27,3,3,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Mar,Tue,Autumn
+11,23,3,4,2,289,36,13,33,222.196,99,0,1,2,1,0,1,90,172,30,8,Medical consultation,Mar,Wed,Autumn
+9,25,3,4,2,228,14,16,58,222.196,99,0,1,2,0,0,1,65,172,22,2,Laboratory examination,Mar,Wed,Autumn
+3,27,3,4,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,2,Physiotherapy,Mar,Wed,Autumn
+33,23,3,5,2,248,25,14,47,222.196,99,0,1,2,0,0,1,86,165,32,3,Medical consultation,Mar,Thu,Autumn
+3,27,3,5,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Thu,Autumn
+22,23,3,6,2,179,26,9,30,222.196,99,0,3,0,0,0,0,56,171,19,2,Medical consultation,Mar,Fri,Autumn
+3,27,3,6,2,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Fri,Autumn
+3,27,3,3,3,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Tue,Winter
+16,23,3,4,3,118,15,24,46,222.196,99,0,1,2,1,1,0,75,175,25,8,Medical consultation,Mar,Wed,Winter
+14,13,3,4,3,155,12,14,34,222.196,99,0,1,2,1,0,0,95,196,25,24,Musculoskeletal,Mar,Wed,Winter
+3,27,3,4,3,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Wed,Winter
+3,27,3,5,3,179,51,18,38,222.196,99,0,1,0,1,0,0,89,170,31,3,Physiotherapy,Mar,Thu,Winter
+22,13,3,2,3,179,26,9,30,222.196,99,0,3,0,0,0,0,56,171,19,2,Musculoskeletal,Mar,Mon,Winter
+11,19,3,2,3,289,36,13,33,222.196,99,0,1,2,1,0,1,90,172,30,104,Injury/poisoning,Mar,Mon,Winter
+13,22,3,4,3,369,17,12,31,222.196,99,0,1,3,1,0,0,70,169,25,8,Patient follow-up,Mar,Wed,Winter
+28,13,4,2,3,225,26,9,28,246.288,91,0,1,1,0,0,2,69,169,24,8,Musculoskeletal,Apr,Mon,Winter
+34,10,4,2,3,118,10,10,37,246.288,91,0,1,0,0,0,0,83,172,28,8,Respiratory system,Apr,Mon,Winter
+10,19,4,3,3,361,52,3,28,246.288,91,0,1,1,1,0,4,80,172,27,8,Injury/poisoning,Apr,Tue,Winter
+33,19,4,4,3,248,25,14,47,246.288,91,0,1,2,0,0,1,86,165,32,8,Injury/poisoning,Apr,Wed,Winter
+6,13,4,5,3,189,29,13,33,246.288,91,0,1,2,0,0,2,69,167,25,8,Musculoskeletal,Apr,Thu,Winter
+22,27,4,6,3,179,26,9,30,246.288,91,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Apr,Fri,Winter
+13,7,4,2,3,369,17,12,31,246.288,91,0,1,3,1,0,0,70,169,25,24,Eye diseases,Apr,Mon,Winter
+17,16,4,3,3,179,22,17,40,246.288,91,0,2,2,0,1,0,63,170,22,2,Perinatal,Apr,Tue,Winter
+36,23,4,3,3,118,13,18,50,246.288,91,0,1,1,1,0,0,98,178,31,3,Medical consultation,Apr,Tue,Winter
+10,23,4,3,3,361,52,3,28,246.288,91,0,1,1,1,0,4,80,172,27,2,Medical consultation,Apr,Tue,Winter
+34,10,4,4,3,118,10,10,37,246.288,91,0,1,0,0,0,0,83,172,28,2,Respiratory system,Apr,Wed,Winter
+1,22,4,6,3,235,11,14,37,246.288,91,0,3,1,0,0,1,88,172,29,8,Patient follow-up,Apr,Fri,Winter
+22,27,4,6,3,179,26,9,30,246.288,91,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Apr,Fri,Winter
+28,19,4,2,3,225,26,9,28,246.288,91,0,1,1,0,0,2,69,169,24,8,Injury/poisoning,Apr,Mon,Winter
+25,16,4,3,3,235,16,8,32,246.288,91,0,3,0,0,0,0,75,178,25,3,Perinatal,Apr,Tue,Winter
+22,27,4,6,3,179,26,9,30,246.288,91,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Apr,Fri,Winter
+14,28,4,3,3,155,12,14,34,246.288,91,0,1,2,1,0,0,95,196,25,4,Dental consultation,Apr,Tue,Winter
+28,19,4,5,3,225,26,9,28,246.288,91,0,1,1,0,0,2,69,169,24,8,Injury/poisoning,Apr,Thu,Winter
+36,14,4,5,3,118,13,18,50,246.288,91,0,1,1,1,0,0,98,178,31,2,Genitourinary,Apr,Thu,Winter
+22,27,4,6,3,179,26,9,30,246.288,91,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Apr,Fri,Winter
+1,22,5,2,3,235,11,14,37,237.656,99,0,3,1,0,0,1,88,172,29,8,Patient follow-up,May,Mon,Winter
+29,19,5,4,3,225,15,15,41,237.656,99,0,4,2,1,0,2,94,182,28,3,Injury/poisoning,May,Wed,Winter
+25,28,5,4,3,235,16,8,32,237.656,99,0,3,0,0,0,0,75,178,25,2,Dental consultation,May,Wed,Winter
+34,8,5,4,3,118,10,10,37,237.656,99,0,1,0,0,0,0,83,172,28,3,Ear diseases,May,Wed,Winter
+5,26,5,4,3,235,20,13,43,237.656,99,0,1,1,1,0,0,106,167,38,8,Unjustified absence,May,Wed,Winter
+22,13,5,5,3,179,26,9,30,237.656,99,0,3,0,0,0,0,56,171,19,1,Musculoskeletal,May,Thu,Winter
+15,28,5,5,3,291,31,12,40,237.656,99,0,1,1,1,0,1,73,171,25,2,Dental consultation,May,Thu,Winter
+29,14,5,5,3,225,15,15,41,237.656,99,0,4,2,1,0,2,94,182,28,8,Genitourinary,May,Thu,Winter
+26,19,5,6,3,300,26,13,43,237.656,99,0,1,2,1,1,1,77,175,25,64,Injury/poisoning,May,Fri,Winter
+29,22,5,6,3,225,15,15,41,237.656,99,0,4,2,1,0,2,94,182,28,8,Patient follow-up,May,Fri,Winter
+22,27,5,6,3,179,26,9,30,237.656,99,0,3,0,0,0,0,56,171,19,2,Physiotherapy,May,Fri,Winter
+36,23,5,2,3,118,13,18,50,237.656,99,0,1,1,1,0,0,98,178,31,2,Medical consultation,May,Mon,Winter
+36,5,5,3,3,118,13,18,50,237.656,99,0,1,1,1,0,0,98,178,31,3,Mental/behavioural,May,Tue,Winter
+34,28,5,3,3,118,10,10,37,237.656,99,0,1,0,0,0,0,83,172,28,1,Dental consultation,May,Tue,Winter
+36,0,5,3,3,118,13,18,50,237.656,99,1,1,1,1,0,0,98,178,31,0,Unspecified,May,Tue,Winter
+22,27,5,4,3,179,26,9,30,237.656,99,0,3,0,0,0,0,56,171,19,2,Physiotherapy,May,Wed,Winter
+23,0,5,4,3,378,49,11,36,237.656,99,1,1,2,0,1,4,65,174,21,0,Unspecified,May,Wed,Winter
+17,16,5,6,3,179,22,17,40,237.656,99,0,2,2,0,1,0,63,170,22,1,Perinatal,May,Fri,Winter
+14,10,5,2,3,155,12,14,34,237.656,99,0,1,2,1,0,0,95,196,25,48,Respiratory system,May,Mon,Winter
+25,10,5,2,3,235,16,8,32,237.656,99,0,3,0,0,0,0,75,178,25,8,Respiratory system,May,Mon,Winter
+15,22,5,4,3,291,31,12,40,237.656,99,0,1,1,1,0,1,73,171,25,8,Patient follow-up,May,Wed,Winter
+17,10,5,4,3,179,22,17,40,237.656,99,0,2,2,0,1,0,63,170,22,8,Respiratory system,May,Wed,Winter
+28,6,5,4,3,225,26,9,28,237.656,99,0,1,1,0,0,2,69,169,24,3,Nervous system,May,Wed,Winter
+18,10,5,5,3,330,16,4,28,237.656,99,0,2,0,0,0,0,84,182,25,8,Respiratory system,May,Thu,Winter
+25,23,5,5,3,235,16,8,32,237.656,99,0,3,0,0,0,0,75,178,25,2,Medical consultation,May,Thu,Winter
+15,28,5,5,3,291,31,12,40,237.656,99,0,1,1,1,0,1,73,171,25,2,Dental consultation,May,Thu,Winter
+22,27,5,6,3,179,26,9,30,237.656,99,0,3,0,0,0,0,56,171,19,2,Physiotherapy,May,Fri,Winter
+10,7,5,2,3,361,52,3,28,237.656,99,0,1,1,1,0,4,80,172,27,8,Eye diseases,May,Mon,Winter
+14,23,5,4,3,155,12,14,34,237.656,99,0,1,2,1,0,0,95,196,25,2,Medical consultation,May,Wed,Winter
+17,25,5,6,3,179,22,17,40,237.656,99,0,2,2,0,1,0,63,170,22,8,Laboratory examination,May,Fri,Winter
+14,10,5,6,3,155,12,14,34,237.656,99,0,1,2,1,0,0,95,196,25,8,Respiratory system,May,Fri,Winter
+28,11,5,2,3,225,26,9,28,237.656,99,0,1,1,0,0,2,69,169,24,1,Digestive system,May,Mon,Winter
+16,7,6,4,3,118,15,24,46,275.089,96,0,1,2,1,1,0,75,175,25,8,Eye diseases,Jun,Wed,Winter
+22,27,6,4,3,179,26,9,30,275.089,96,0,3,0,0,0,0,56,171,19,3,Physiotherapy,Jun,Wed,Winter
+34,26,6,6,3,118,10,10,37,275.089,96,0,1,0,0,0,0,83,172,28,8,Unjustified absence,Jun,Fri,Winter
+34,10,6,4,3,118,10,10,37,275.089,96,0,1,0,0,0,0,83,172,28,8,Respiratory system,Jun,Wed,Winter
+23,22,6,5,3,378,49,11,36,275.089,96,0,1,2,0,1,4,65,174,21,8,Patient follow-up,Jun,Thu,Winter
+36,19,6,5,3,118,13,18,50,275.089,96,0,1,1,1,0,0,98,178,31,24,Injury/poisoning,Jun,Thu,Winter
+12,19,6,6,3,233,51,1,31,275.089,96,0,2,1,1,0,8,68,178,21,8,Injury/poisoning,Jun,Fri,Winter
+22,27,6,6,3,179,26,9,30,275.089,96,0,3,0,0,0,0,56,171,19,2,Physiotherapy,Jun,Fri,Winter
+2,0,6,2,3,235,29,12,48,275.089,96,1,1,1,0,1,5,88,163,33,0,Unspecified,Jun,Mon,Winter
+21,0,6,2,3,268,11,8,33,275.089,96,1,2,0,0,0,0,79,178,25,0,Unspecified,Jun,Mon,Winter
+36,19,6,5,3,118,13,18,50,275.089,96,0,1,1,1,0,0,98,178,31,3,Injury/poisoning,Jun,Thu,Winter
+22,13,6,5,3,179,26,9,30,275.089,96,0,3,0,0,0,0,56,171,19,2,Musculoskeletal,Jun,Thu,Winter
+15,28,6,5,3,291,31,12,40,275.089,96,0,1,1,1,0,1,73,171,25,2,Dental consultation,Jun,Thu,Winter
+22,13,6,2,1,179,26,9,30,275.089,96,0,3,0,0,0,0,56,171,19,3,Musculoskeletal,Jun,Mon,Summer
+34,25,6,2,1,118,10,10,37,275.089,96,0,1,0,0,0,0,83,172,28,3,Laboratory examination,Jun,Mon,Summer
+12,22,6,5,1,233,51,1,31,275.089,96,0,2,1,1,0,8,68,178,21,8,Patient follow-up,Jun,Thu,Summer
+34,8,6,6,1,118,10,10,37,275.089,96,0,1,0,0,0,0,83,172,28,2,Ear diseases,Jun,Fri,Summer
+34,10,6,4,1,118,10,10,37,275.089,96,0,1,0,0,0,0,83,172,28,3,Respiratory system,Jun,Wed,Summer
+12,22,6,4,1,233,51,1,31,275.089,96,0,2,1,1,0,8,68,178,21,3,Patient follow-up,Jun,Wed,Summer
+5,26,7,4,1,235,20,13,43,264.604,93,0,1,1,1,0,0,106,167,38,4,Unjustified absence,Jul,Wed,Summer
+12,19,7,6,1,233,51,1,31,264.604,93,0,2,1,1,0,8,68,178,21,2,Injury/poisoning,Jul,Fri,Summer
+9,6,7,2,1,228,14,16,58,264.604,93,0,1,2,0,0,1,65,172,22,8,Nervous system,Jul,Mon,Summer
+34,28,7,2,1,118,10,10,37,264.604,93,0,1,0,0,0,0,83,172,28,4,Dental consultation,Jul,Mon,Summer
+9,6,7,3,1,228,14,16,58,264.604,93,0,1,2,0,0,1,65,172,22,120,Nervous system,Jul,Tue,Summer
+6,22,7,3,1,189,29,13,33,264.604,93,0,1,2,0,0,2,69,167,25,16,Patient follow-up,Jul,Tue,Summer
+34,23,7,4,1,118,10,10,37,264.604,93,0,1,0,0,0,0,83,172,28,2,Medical consultation,Jul,Wed,Summer
+10,22,7,4,1,361,52,3,28,264.604,93,0,1,1,1,0,4,80,172,27,8,Patient follow-up,Jul,Wed,Summer
+28,22,7,4,1,225,26,9,28,264.604,93,0,1,1,0,0,2,69,169,24,8,Patient follow-up,Jul,Wed,Summer
+13,13,7,2,1,369,17,12,31,264.604,93,0,1,3,1,0,0,70,169,25,80,Musculoskeletal,Jul,Mon,Summer
+11,14,7,3,1,289,36,13,33,264.604,93,0,1,2,1,0,1,90,172,30,8,Genitourinary,Jul,Tue,Summer
+1,11,7,3,1,235,11,14,37,264.604,93,0,3,1,0,0,1,88,172,29,4,Digestive system,Jul,Tue,Summer
+4,0,0,3,1,118,14,13,40,271.219,95,0,1,1,1,0,8,98,170,34,0,Unspecified,Unknown,Tue,Summer
+8,0,0,4,2,231,35,14,39,271.219,95,0,1,2,1,0,2,100,170,35,0,Unspecified,Unknown,Wed,Autumn
+35,0,0,6,3,179,45,14,53,271.219,95,0,1,1,0,0,1,77,175,25,0,Unspecified,Unknown,Fri,Winter

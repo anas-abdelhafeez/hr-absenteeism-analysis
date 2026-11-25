@@ -1,5 +1,9 @@
 # Workforce Absenteeism: Drivers, Segments and What-If
 
+<p align="center"><img src="docs/screenshots/tab1.png" alt="Dashboard preview: the problem tab" width="320"></p>
+
+**Live dashboard (works on a phone):** https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/
+
 A story-driven analysis of real absence records: **what is lost, where it comes from, who it comes from, why some absences run long, and what to do.** Built with SQL (DuckDB), statsmodels, scikit-learn, an HTML dashboard and a Power BI file.
 
 Story flow: Problem -> Impact -> Where -> Who -> Why -> When -> Fix.
@@ -26,16 +30,12 @@ UCI, "Absenteeism at work" (archive.ics.uci.edu): 740 absence records, 36 employ
 A Power BI file with the same story (Events table, 8 DAX measures, 5 report pages) was built separately and is not stored here. It was checked only by reading it back (740 rows, 5,124 hours). **It has not been opened in Power BI Desktop**, and the DAX results were not evaluated by Power BI. The HTML dashboard below shows the same story without Desktop.
 
 ## Dashboard
-`docs/index.html` is a dark 7-tab dashboard (ECharts via CDN, works on a phone). Phone-width screenshots are not in this repo yet; open `docs/index.html` in a browser (it loads ECharts from a CDN).
+Live page: https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/ (source: `docs/index.html`, a dark 7-tab dashboard, ECharts loaded from a CDN). Phone-width screenshots of each tab:
 
-## Run it
-```
-pip install -r requirements.txt
-python analysis.py          # SQL + models -> results.json
-python build_dashboard.py   # -> docs/index.html
-pytest                      # 5 checks
-```
-SQL is in `sql/01_aggregates.sql` (run directly with DuckDB).
+| 1. Problem | 2. Impact | 3. Where | 4. Who |
+|---|---|---|---|
+| <img src="docs/screenshots/tab1.png" width="190"> | <img src="docs/screenshots/tab2.png" width="190"> | <img src="docs/screenshots/tab3.png" width="190"> | <img src="docs/screenshots/tab4.png" width="190"> |
 
-## License
-Code: MIT (see LICENSE). Data: CC BY 4.0, UCI, "Absenteeism at work" (archive.ics.uci.edu).
+| 5. Why | 6. When | 7. Fix |
+|---|---|---|
+| <img src="docs/screenshots/tab5.png" width="190"> | <img src="docs/screenshots/tab6.png" width="190"> | <img src="docs/screenshots/tab7.png" width="190"> |

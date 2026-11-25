@@ -23,10 +23,10 @@ UCI Machine Learning Repository, "Absenteeism at work": 740 absence records, 36 
 - Scenario sizes (50%, 25%, 30%) and the $18 rate are my assumptions.
 
 ## Power BI file: built programmatically, not opened in Power BI Desktop
-`powerbi/absenteeism_story.pbix` was generated with [pbix-mcp](https://github.com/d0nk3yhm/pbix-mcp) (MIT) and re-read with [pbixray](https://github.com/Hugoberry/pbixray) (MIT): 740 rows, 5,124 hours, 8 DAX measures and 5 report pages are present. **It has not been opened in Power BI Desktop**, and DAX results were not evaluated by Power BI. Treat it as a starting file. The HTML dashboard below shows the same story without Desktop.
+The .pbix file is not stored in this repo yet (web upload of binary files failed). Run `python build_pbix.py` to regenerate `powerbi/absenteeism_story.pbix`. It was generated with [pbix-mcp](https://github.com/d0nk3yhm/pbix-mcp) (MIT) and re-read with [pbixray](https://github.com/Hugoberry/pbixray) (MIT): 740 rows, 5,124 hours, 8 DAX measures and 5 report pages are present. **It has not been opened in Power BI Desktop**, and DAX results were not evaluated by Power BI. Treat it as a starting file. The HTML dashboard below shows the same story without Desktop.
 
 ## Dashboard
-`docs/index.html` is a dark 7-tab dashboard (ECharts via CDN, works on a phone). Screenshots: `docs/screenshots/`.
+`docs/index.html` is a dark 7-tab dashboard (ECharts via CDN, works on a phone). Phone-width screenshots are not in this repo yet; open `docs/index.html` in a browser (it loads ECharts from a CDN).
 
 ## Run it
 ```

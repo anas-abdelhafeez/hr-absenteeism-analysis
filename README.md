@@ -22,8 +22,8 @@ UCI, "Absenteeism at work" (archive.ics.uci.edu): 740 absence records, 36 employ
 - 44 events have 0 recorded hours (43 are coded "unspecified"); they are dropped from the driver model (696 events remain). 3 employees have only zero-hour records and are left out of the clustering.
 - Scenario sizes (50%, 25%, 30%) and the $18 rate are my assumptions.
 
-## Power BI file: not opened in Power BI Desktop
-`build_pbix.py` writes `powerbi/absenteeism_story.pbix` (Events table, 8 DAX measures, 5 report pages). I read the file back and checked 740 rows and 5,124 hours against the source. **It has not been opened in Power BI Desktop**, and the DAX results were not evaluated by Power BI. Treat it as a starting file. The HTML dashboard below shows the same story without Desktop.
+## Power BI file: not in this repo, not opened in Power BI Desktop
+A Power BI file with the same story (Events table, 8 DAX measures, 5 report pages) was built separately and is not stored here. It was checked only by reading it back (740 rows, 5,124 hours). **It has not been opened in Power BI Desktop**, and the DAX results were not evaluated by Power BI. The HTML dashboard below shows the same story without Desktop.
 
 ## Dashboard
 `docs/index.html` is a dark 7-tab dashboard (ECharts via CDN, works on a phone). Phone-width screenshots are not in this repo yet; open `docs/index.html` in a browser (it loads ECharts from a CDN).
@@ -33,8 +33,7 @@ UCI, "Absenteeism at work" (archive.ics.uci.edu): 740 absence records, 36 employ
 pip install -r requirements.txt
 python analysis.py          # SQL + models -> results.json
 python build_dashboard.py   # -> docs/index.html
-python build_pbix.py        # -> powerbi/absenteeism_story.pbix
-pytest                      # 7 checks
+pytest                      # 5 checks
 ```
 SQL is in `sql/01_aggregates.sql` (run directly with DuckDB).
 

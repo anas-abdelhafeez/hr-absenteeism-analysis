@@ -1,4 +1,4 @@
-"""Builds powerbi/absenteeism_story.pbix programmatically with pbix-mcp (MIT). NOT opened in Power BI Desktop."""
+"""Builds powerbi/absenteeism_story.pbix from the data and results. Not opened in Power BI Desktop."""
 import json, pandas as pd
 from pbix_mcp.builder import PBIXBuilder
 R = json.load(open('results.json'))

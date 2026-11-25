@@ -11,7 +11,7 @@ nav button{border:0;background:var(--card);color:var(--mut);padding:9px 14px;bor
 nav button.on{background:linear-gradient(90deg,var(--a),var(--e));color:#fff}
 .wrap{padding:6px 18px 30px;max-width:1400px;margin:auto}
 .pg{display:none}.pg.on{display:block}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:14px}
+.kpis{margin-top:14px;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:14px}
 .k{background:var(--card);border-radius:14px;padding:14px 16px;border-top:3px solid var(--a)}
 .k:nth-child(2){border-color:var(--b)}.k:nth-child(3){border-color:var(--c)}.k:nth-child(4){border-color:var(--d)}.k:nth-child(5){border-color:var(--e)}.k:nth-child(6){border-color:var(--a)}
 .k b{font-size:24px;display:block}.k span{font-size:12px;color:var(--mut)}
@@ -26,11 +26,19 @@ nav button.on{background:linear-gradient(90deg,var(--a),var(--e));color:#fff}
 .fix{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
 .f{background:var(--card);border-radius:14px;padding:14px 16px;border-top:3px solid var(--b)}
 .f h4{margin:0 0 6px;font-size:14px;color:var(--b)}.f p{margin:0;font-size:13px;color:var(--tx);line-height:1.5}.f small{color:var(--mut);font-size:11px}
-table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:7px 8px;text-align:right;border-bottom:1px solid #2c3562}th:first-child,td:first-child{text-align:left}th{color:var(--mut)}
+table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:7px 8px;text-align:right;border-bottom:1px solid #2c3562}th:first-child,td:first-child{text-align:left;white-space:nowrap}th{color:var(--mut)}
 .pill{padding:2px 8px;border-radius:10px;font-size:12px}.good{background:#134d3c;color:#6df0c2}.bad{background:#59203a;color:#ff9db6}.mid{background:#4a3a12;color:#ffd27a}
 pre{background:#0b0f22;border:1px solid #2c3562;border-radius:10px;padding:10px;font-size:11px;overflow-x:auto;color:#c9d4ff}
 details summary{color:var(--a);cursor:pointer;font-size:13px;margin:8px 0 4px}
 .note{color:var(--mut);font-size:12px;margin-top:14px;line-height:1.5}
+.hero{background:linear-gradient(135deg,#232c63,#3a2a6e);border-radius:16px;padding:18px 20px;margin:12px 0}
+.hero .n{font-size:44px;font-weight:800;line-height:1;color:#ff8fa8}.hero .t{font-size:17px;line-height:1.4;margin-top:8px}.hero .s{color:var(--mut);font-size:13px;margin-top:8px}
+.vs{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}.vs .k{flex:1;min-width:140px}
+.calc{background:var(--card);border-radius:14px;padding:16px 18px;margin:12px 0}
+.calc label{display:block;font-size:13px;color:var(--mut);margin:10px 0 4px}.calc input[type=range]{width:100%}
+.calc input[type=number]{background:#0f1426;color:var(--tx);border:1px solid #3a4580;border-radius:8px;padding:8px;width:110px;font-size:16px}
+.out{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-top:14px}.out div{background:var(--card2);border-radius:12px;padding:12px}.out b{font-size:24px;display:block;color:var(--b)}.out span{font-size:12px;color:var(--mut)}
+.tag{display:inline-block;background:#4a3a12;color:#ffd27a;border-radius:10px;padding:2px 8px;font-size:11px;margin-left:6px}
 @media(max-width:900px){.c,.c.w4,.c.w8{grid-column:span 12}.ch{height:260px}}"""
 
 JS = """const nav=document.getElementById('nav'),pages=[...document.querySelectorAll('.pg')];
@@ -63,7 +71,7 @@ def tbl(rows, cols, pill_col=None, pill_rule=None, maxn=None):
             else: h+=f'<td>{v}</td>'
         h+='</tr>'
     return h+'</table>'
-def story(): return '<div class="story">Story flow: <b>1 Problem</b> &rarr; <b>2 Impact</b> &rarr; <b>3 Where</b> &rarr; <b>4 Who</b> &rarr; <b>5 Why</b> &rarr; <b>6 When</b> &rarr; <b>7 Fix</b></div>'
+def story(): return '<div class="story">Story flow: <b>1 Problem</b> &rarr; <b>2 Impact</b> &rarr; <b>3 Where</b> &rarr; <b>4 Who</b> &rarr; <b>5 Why</b> &rarr; <b>6 When</b> &rarr; <b>7 Fix</b> &middot; Appendix</div>'
 def doc(title, subtitle, pages):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title}</title><style>{CSS}</style>

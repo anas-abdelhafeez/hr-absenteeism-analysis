@@ -1,41 +1,51 @@
-# Workforce Absenteeism: Drivers, Segments and What-If
+# Who Is Absent? The Same Few People, Again and Again
 
-<p align="center"><img src="docs/screenshots/tab1.png" alt="Dashboard preview: the problem tab" width="320"></p>
+<p align="center"><img src="docs/screenshots/tab1.png" alt="Dashboard preview" width="320"></p>
 
 **Live dashboard (works on a phone):** https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/
 
-A story-driven analysis of real absence records: **what is lost, where it comes from, who it comes from, why some absences run long, and what to do.** Built with SQL (DuckDB), statsmodels, scikit-learn, an HTML dashboard and a Power BI file.
+**One finding:** 5 of 36 people cause 41% of all lost hours, and they are largely the same people two years later. The 5 heaviest in 2007-08 caused 32% of the hours in 2009-10. Five random people would cause 14%.
 
-Story flow: Problem -> Impact -> Where -> Who -> Why -> When -> Fix.
+Story flow: Problem -> Impact -> Where -> Who -> Why -> When -> Fix, plus an appendix.
+
+## What the data says
+| Question | Answer | How sure |
+|---|---|---|
+| Problem | 5 people = 41% of 5,124 lost hours | Range 32% to 52% when resampling 36 people |
+| Who | The 2007-08 top 5 cause 32% of 2009-10 hours (14% by chance). 7 of the top 10 repeat (about 3 by chance) | Chance of this by luck: under 1 in 100. Holds after removing each person's longest absence (31%) |
+| Why | Age, commute, years at the company, children, BMI, travel cost and workload do not explain it | All links within +/-15%, none clear |
+| When | Monday is 22% of absences but 29% of hours | Chance by luck: under 1 in 100. Without the top 5 people it is 26% |
+| Where | Injuries and musculoskeletal problems lose the most hours. Planned care is 54% of events and 26% of hours | |
+| Impact | Cutting the top 5 people's hours by 50% recovers about 1,050 hours over 3 years | The cost per hour is an input you set, not data |
 
 ## Data
-UCI, "Absenteeism at work" (archive.ics.uci.edu): 740 absence records, 36 employees, July 2007 to July 2010, from a Brazilian courier company. License: CC BY 4.0 (attribution required, kept here). `data/absenteeism_enriched.csv` is that file plus readable labels for coded columns (reason, weekday, season).
-**This is real data but not a call center.** I use it as a stand-in for any shift-based service team and say so wherever it matters. There is no attrition data.
-
-## Findings
-- 36 employees lost **5,124 hours** in 740 events. The top 5 people account for **41%** of hours.
-- Planned care (medical and dental visits, physiotherapy, labs, follow-ups, blood donation) is 26% of hours but most events, and they are short.
-- Driver model (logistic regression, event is 8 h or more): planned care has an odds ratio of **0.074** (95% CI 0.039 to 0.139). Age, commute distance, tenure, workload, winter and Monday show no clear effect.
-- Three employee groups (k-means): A, 10 people with about 45 short events each, mostly planned care, 47% of hours. B, 10 people with about 20 events of 13 h each, 46% of hours. C, 13 people with few events, 8% of hours.
-- What-if (illustrations, not forecasts): halving the top 5 people's hours recovers about 1,050 hours; shortening 24 h+ illness events by 25% recovers 528; moving 30% of planned care outside work hours recovers 402. Cost uses an **assumed** $18 per hour.
+UCI "Absenteeism at work" (archive.ics.uci.edu): 740 absence events, 36 employees, July 2007 to July 2010, a Brazilian courier company. License: CC BY 4.0 (attribution kept). `data/absences.csv` is that file with readable labels, a `reason_group` column (planned care or other) and `year` / `period` columns. The file has no dates, so the year comes from record order (months restart in order). 3 events have no month and are left out of timing questions.
+**This is real data but not a call center.** It is a stand-in for any shift-based team. There is no attrition data.
 
 ## Honest limits
-- 36 people. Models describe association, not cause. Standard errors are clustered by employee, and the intervals are still wide.
-- Silhouette scores for 2, 3 and 4 clusters are 0.325, 0.330 and 0.332: weak structure. I chose 3 for readability.
-- "Planned care" is partly built into the outcome (visits are short by nature), so that finding is expected. The useful result is what shows no effect.
-- 44 events have 0 recorded hours (43 are coded "unspecified"); they are dropped from the driver model (696 events remain). 3 employees have only zero-hour records and are left out of the clustering.
-- Scenario sizes (50%, 25%, 30%) and the $18 rate are my assumptions.
+- 36 people and 740 events. Patterns, not proof of cause.
+- The cost per hour is an assumption (default $18) and the cut percentage is a slider, not a forecast.
+- "No clear link" for personal traits means no evidence at this sample size, not proof of no effect.
+- The employee groups in the appendix are weak (cluster quality 0.33, nearly equal for 2, 3 and 4 groups). They are a rough label and the story does not rely on them.
+- 44 events have 0 recorded hours. They count as events but are dropped from the long-absence regression (696 events remain).
+- A Power BI file with the same earlier story exists outside this repo and has not been opened in Power BI Desktop. It is not part of this analysis.
 
-## Power BI file: not in this repo, not opened in Power BI Desktop
-A Power BI file with the same story (Events table, 8 DAX measures, 5 report pages) was built separately and is not stored here. It was checked only by reading it back (740 rows, 5,124 hours). **It has not been opened in Power BI Desktop**, and the DAX results were not evaluated by Power BI. The HTML dashboard below shows the same story without Desktop.
+## Run it
+```
+pip install -r requirements.txt
+python analysis.py          # writes results.json, runs sql/queries.sql
+python build_dashboard.py   # writes docs/index.html
+pytest                      # 16 checks, including the same SQL on a real PostgreSQL server
+```
+`sql/queries.sql` is portable SQL. `tests/test_postgres.py` starts a temporary PostgreSQL server, loads the CSV, runs every query and checks the numbers match the DuckDB run.
 
-## Dashboard
-Live page: https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/ (source: `docs/index.html`, a dark 7-tab dashboard, ECharts loaded from a CDN). Phone-width screenshots of each tab:
-
+## Dashboard tabs
 | 1. Problem | 2. Impact | 3. Where | 4. Who |
 |---|---|---|---|
 | <img src="docs/screenshots/tab1.png" width="190"> | <img src="docs/screenshots/tab2.png" width="190"> | <img src="docs/screenshots/tab3.png" width="190"> | <img src="docs/screenshots/tab4.png" width="190"> |
 
-| 5. Why | 6. When | 7. Fix |
-|---|---|---|
-| <img src="docs/screenshots/tab5.png" width="190"> | <img src="docs/screenshots/tab6.png" width="190"> | <img src="docs/screenshots/tab7.png" width="190"> |
+| 5. Why | 6. When | 7. Fix | Appendix |
+|---|---|---|---|
+| <img src="docs/screenshots/tab5.png" width="190"> | <img src="docs/screenshots/tab6.png" width="190"> | <img src="docs/screenshots/tab7.png" width="190"> | <img src="docs/screenshots/tab8.png" width="190"> |
+
+Code: `analysis.py`, `build_dashboard.py`, `dashboard_lib.py`, `sql/queries.sql`, `tests/`.

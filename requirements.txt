@@ -2,6 +2,4 @@ pandas
 duckdb
 statsmodels
 scikit-learn
-pbix-mcp
-pbixray
 pytest

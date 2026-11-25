@@ -5,7 +5,7 @@ A story-driven analysis of real absence records: **what is lost, where it comes 
 Story flow: Problem -> Impact -> Where -> Who -> Why -> When -> Fix.
 
 ## Data
-UCI Machine Learning Repository, "Absenteeism at work": 740 absence records, 36 employees, July 2007 to July 2010, from a Brazilian courier company. License: CC BY 4.0 (attribution required, kept here). `data/absenteeism_enriched.csv` is that file plus readable labels for coded columns (reason, weekday, season).
+UCI, "Absenteeism at work" (archive.ics.uci.edu): 740 absence records, 36 employees, July 2007 to July 2010, from a Brazilian courier company. License: CC BY 4.0 (attribution required, kept here). `data/absenteeism_enriched.csv` is that file plus readable labels for coded columns (reason, weekday, season).
 **This is real data but not a call center.** I use it as a stand-in for any shift-based service team and say so wherever it matters. There is no attrition data.
 
 ## Findings
@@ -22,8 +22,8 @@ UCI Machine Learning Repository, "Absenteeism at work": 740 absence records, 36 
 - 44 events have 0 recorded hours (43 are coded "unspecified"); they are dropped from the driver model (696 events remain). 3 employees have only zero-hour records and are left out of the clustering.
 - Scenario sizes (50%, 25%, 30%) and the $18 rate are my assumptions.
 
-## Power BI file: built programmatically, not opened in Power BI Desktop
-The .pbix file is not stored in this repo yet (web upload of binary files failed). Run `python build_pbix.py` to regenerate `powerbi/absenteeism_story.pbix`. It was generated with [pbix-mcp](https://github.com/d0nk3yhm/pbix-mcp) (MIT) and re-read with [pbixray](https://github.com/Hugoberry/pbixray) (MIT): 740 rows, 5,124 hours, 8 DAX measures and 5 report pages are present. **It has not been opened in Power BI Desktop**, and DAX results were not evaluated by Power BI. Treat it as a starting file. The HTML dashboard below shows the same story without Desktop.
+## Power BI file: not opened in Power BI Desktop
+`build_pbix.py` writes `powerbi/absenteeism_story.pbix` (Events table, 8 DAX measures, 5 report pages). I read the file back and checked 740 rows and 5,124 hours against the source. **It has not been opened in Power BI Desktop**, and the DAX results were not evaluated by Power BI. Treat it as a starting file. The HTML dashboard below shows the same story without Desktop.
 
 ## Dashboard
 `docs/index.html` is a dark 7-tab dashboard (ECharts via CDN, works on a phone). Phone-width screenshots are not in this repo yet; open `docs/index.html` in a browser (it loads ECharts from a CDN).
@@ -39,4 +39,4 @@ pytest                      # 7 checks
 SQL is in `sql/01_aggregates.sql` (run directly with DuckDB).
 
 ## License
-Code: MIT (see LICENSE). Data: CC BY 4.0, UCI Machine Learning Repository, "Absenteeism at work".
+Code: MIT (see LICENSE). Data: CC BY 4.0, UCI, "Absenteeism at work" (archive.ics.uci.edu).

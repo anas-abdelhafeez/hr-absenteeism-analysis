@@ -1,0 +1,631 @@
+{
+ "events": 740,
+ "employees": 36,
+ "hours": 5124,
+ "rate": 18.0,
+ "top5_share": 41.0,
+ "top20_share": 53.0,
+ "planned_hours": 1341,
+ "planned_events": 402,
+ "drivers": [
+  {
+   "factor": "planned_care",
+   "odds_ratio": 0.074,
+   "lo": 0.039,
+   "hi": 0.139,
+   "p": 0.0
+  },
+  {
+   "factor": "monday",
+   "odds_ratio": 1.373,
+   "lo": 0.945,
+   "hi": 1.993,
+   "p": 0.096
+  },
+  {
+   "factor": "winter",
+   "odds_ratio": 1.177,
+   "lo": 0.707,
+   "hi": 1.961,
+   "p": 0.531
+  },
+  {
+   "factor": "distance_10km",
+   "odds_ratio": 1.125,
+   "lo": 0.86,
+   "hi": 1.471,
+   "p": 0.391
+  },
+  {
+   "factor": "age_10y",
+   "odds_ratio": 1.079,
+   "lo": 0.42,
+   "hi": 2.771,
+   "p": 0.875
+  },
+  {
+   "factor": "service_10y",
+   "odds_ratio": 0.605,
+   "lo": 0.165,
+   "hi": 2.22,
+   "p": 0.448
+  },
+  {
+   "factor": "workload_100",
+   "odds_ratio": 1.164,
+   "lo": 0.74,
+   "hi": 1.831,
+   "p": 0.511
+  }
+ ],
+ "model_n": 696,
+ "model_clusters": 33,
+ "zero_hour_employees": 3,
+ "silhouette": {
+  "2": 0.325,
+  "3": 0.33,
+  "4": 0.332
+ },
+ "k": 3,
+ "segments": [
+  {
+   "seg": 1,
+   "employees": 10,
+   "hours": 2392.0,
+   "events": 447,
+   "hpe": 5.48,
+   "planned": 0.64,
+   "events_each": 44.7,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care",
+   "share_hours_pct": 46.7
+  },
+  {
+   "seg": 2,
+   "employees": 10,
+   "hours": 2335.0,
+   "events": 205,
+   "hpe": 12.96,
+   "planned": 0.38,
+   "events_each": 20.5,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care",
+   "share_hours_pct": 45.6
+  },
+  {
+   "seg": 0,
+   "employees": 13,
+   "hours": 397.0,
+   "events": 84,
+   "hpe": 4.71,
+   "planned": 0.29,
+   "events_each": 6.5,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care",
+   "share_hours_pct": 7.7
+  }
+ ],
+ "whatif": [
+  {
+   "scenario": "Top 5 employees: cut lost hours by 50%",
+   "hours": 1049.5,
+   "usd": 18891
+  },
+  {
+   "scenario": "Illness events of 24h+: shorten by 25%",
+   "hours": 528.0,
+   "usd": 9504
+  },
+  {
+   "scenario": "Planned care: move 30% outside work hours",
+   "hours": 402.3,
+   "usd": 7241
+  }
+ ],
+ "emp_top12": [
+  {
+   "ID": 3,
+   "hours": 482.0,
+   "events": 113,
+   "hours_per_event": 4.3,
+   "planned_share": 0.752,
+   "cum_share": 9.4
+  },
+  {
+   "ID": 14,
+   "hours": 476.0,
+   "events": 29,
+   "hours_per_event": 16.4,
+   "planned_share": 0.517,
+   "cum_share": 18.7
+  },
+  {
+   "ID": 11,
+   "hours": 450.0,
+   "events": 40,
+   "hours_per_event": 11.3,
+   "planned_share": 0.35,
+   "cum_share": 27.5
+  },
+  {
+   "ID": 28,
+   "hours": 347.0,
+   "events": 76,
+   "hours_per_event": 4.6,
+   "planned_share": 0.711,
+   "cum_share": 34.3
+  },
+  {
+   "ID": 34,
+   "hours": 344.0,
+   "events": 55,
+   "hours_per_event": 6.3,
+   "planned_share": 0.6,
+   "cum_share": 41.0
+  },
+  {
+   "ID": 36,
+   "hours": 311.0,
+   "events": 34,
+   "hours_per_event": 9.1,
+   "planned_share": 0.441,
+   "cum_share": 47.0
+  },
+  {
+   "ID": 20,
+   "hours": 306.0,
+   "events": 42,
+   "hours_per_event": 7.3,
+   "planned_share": 0.548,
+   "cum_share": 53.0
+  },
+  {
+   "ID": 9,
+   "hours": 262.0,
+   "events": 8,
+   "hours_per_event": 32.8,
+   "planned_share": 0.25,
+   "cum_share": 58.1
+  },
+  {
+   "ID": 24,
+   "hours": 254.0,
+   "events": 30,
+   "hours_per_event": 8.5,
+   "planned_share": 0.367,
+   "cum_share": 63.1
+  },
+  {
+   "ID": 15,
+   "hours": 253.0,
+   "events": 37,
+   "hours_per_event": 6.8,
+   "planned_share": 0.757,
+   "cum_share": 68.0
+  },
+  {
+   "ID": 22,
+   "hours": 253.0,
+   "events": 46,
+   "hours_per_event": 5.5,
+   "planned_share": 0.587,
+   "cum_share": 73.0
+  },
+  {
+   "ID": 10,
+   "hours": 186.0,
+   "events": 24,
+   "hours_per_event": 7.8,
+   "planned_share": 0.708,
+   "cum_share": 76.6
+  }
+ ],
+ "reasons_top10": [
+  {
+   "reason_name": "Musculoskeletal",
+   "reason_group": "Illness, injury, other",
+   "events": 55,
+   "hours": 842.0,
+   "avg_h": 15.3
+  },
+  {
+   "reason_name": "Injury/poisoning",
+   "reason_group": "Illness, injury, other",
+   "events": 40,
+   "hours": 729.0,
+   "avg_h": 18.2
+  },
+  {
+   "reason_name": "Medical consultation",
+   "reason_group": "Planned care",
+   "events": 149,
+   "hours": 424.0,
+   "avg_h": 2.8
+  },
+  {
+   "reason_name": "Dental consultation",
+   "reason_group": "Planned care",
+   "events": 112,
+   "hours": 335.0,
+   "avg_h": 3.0
+  },
+  {
+   "reason_name": "Digestive system",
+   "reason_group": "Illness, injury, other",
+   "events": 26,
+   "hours": 297.0,
+   "avg_h": 11.4
+  },
+  {
+   "reason_name": "Patient follow-up",
+   "reason_group": "Planned care",
+   "events": 38,
+   "hours": 293.0,
+   "avg_h": 7.7
+  },
+  {
+   "reason_name": "Respiratory system",
+   "reason_group": "Illness, injury, other",
+   "events": 25,
+   "hours": 276.0,
+   "avg_h": 11.0
+  },
+  {
+   "reason_name": "Unjustified absence",
+   "reason_group": "Illness, injury, other",
+   "events": 33,
+   "hours": 240.0,
+   "avg_h": 7.3
+  },
+  {
+   "reason_name": "Symptoms not elsewhere classified",
+   "reason_group": "Illness, injury, other",
+   "events": 21,
+   "hours": 217.0,
+   "avg_h": 10.3
+  },
+  {
+   "reason_name": "Skin diseases",
+   "reason_group": "Illness, injury, other",
+   "events": 8,
+   "hours": 187.0,
+   "avg_h": 23.4
+  }
+ ],
+ "dow": [
+  {
+   "d": "Mon",
+   "h": 1489.0
+  },
+  {
+   "d": "Tue",
+   "h": 1229.0
+  },
+  {
+   "d": "Wed",
+   "h": 1115.0
+  },
+  {
+   "d": "Thu",
+   "h": 553.0
+  },
+  {
+   "d": "Fri",
+   "h": 738.0
+  }
+ ],
+ "season": [
+  {
+   "s": "Summer",
+   "h": 1241.0
+  },
+  {
+   "s": "Autumn",
+   "h": 1152.0
+  },
+  {
+   "s": "Winter",
+   "h": 1492.0
+  },
+  {
+   "s": "Spring",
+   "h": 1239.0
+  }
+ ],
+ "emp_seg": [
+  {
+   "ID": 3,
+   "hours": 482.0,
+   "events": 113,
+   "hours_per_event": 4.3,
+   "planned_share": 0.752,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 14,
+   "hours": 476.0,
+   "events": 29,
+   "hours_per_event": 16.4,
+   "planned_share": 0.517,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 11,
+   "hours": 450.0,
+   "events": 40,
+   "hours_per_event": 11.3,
+   "planned_share": 0.35,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 28,
+   "hours": 347.0,
+   "events": 76,
+   "hours_per_event": 4.6,
+   "planned_share": 0.711,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 34,
+   "hours": 344.0,
+   "events": 55,
+   "hours_per_event": 6.3,
+   "planned_share": 0.6,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 36,
+   "hours": 311.0,
+   "events": 34,
+   "hours_per_event": 9.1,
+   "planned_share": 0.441,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 20,
+   "hours": 306.0,
+   "events": 42,
+   "hours_per_event": 7.3,
+   "planned_share": 0.548,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 9,
+   "hours": 262.0,
+   "events": 8,
+   "hours_per_event": 32.8,
+   "planned_share": 0.25,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 24,
+   "hours": 254.0,
+   "events": 30,
+   "hours_per_event": 8.5,
+   "planned_share": 0.367,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 15,
+   "hours": 253.0,
+   "events": 37,
+   "hours_per_event": 6.8,
+   "planned_share": 0.757,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 22,
+   "hours": 253.0,
+   "events": 46,
+   "hours_per_event": 5.5,
+   "planned_share": 0.587,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 10,
+   "hours": 186.0,
+   "events": 24,
+   "hours_per_event": 7.8,
+   "planned_share": 0.708,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 13,
+   "hours": 183.0,
+   "events": 15,
+   "hours_per_event": 12.2,
+   "planned_share": 0.4,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 17,
+   "hours": 126.0,
+   "events": 20,
+   "hours_per_event": 6.3,
+   "planned_share": 0.4,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 1,
+   "hours": 121.0,
+   "events": 23,
+   "hours_per_event": 5.3,
+   "planned_share": 0.435,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 18,
+   "hours": 118.0,
+   "events": 16,
+   "hours_per_event": 7.4,
+   "planned_share": 0.25,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 5,
+   "hours": 104.0,
+   "events": 19,
+   "hours_per_event": 5.5,
+   "planned_share": 0.105,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 26,
+   "hours": 83.0,
+   "events": 5,
+   "hours_per_event": 16.6,
+   "planned_share": 0.2,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 33,
+   "hours": 73.0,
+   "events": 24,
+   "hours_per_event": 3.0,
+   "planned_share": 0.625,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 6,
+   "hours": 72.0,
+   "events": 8,
+   "hours_per_event": 9.0,
+   "planned_share": 0.625,
+   "seg": 2,
+   "name": "Group B: ~20 events each, 13.0 h per event, 38% planned care"
+  },
+  {
+   "ID": 25,
+   "hours": 42.0,
+   "events": 10,
+   "hours_per_event": 4.2,
+   "planned_share": 0.5,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 23,
+   "hours": 40.0,
+   "events": 8,
+   "hours_per_event": 5.0,
+   "planned_share": 0.375,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 12,
+   "hours": 34.0,
+   "events": 7,
+   "hours_per_event": 4.9,
+   "planned_share": 0.286,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 30,
+   "hours": 31.0,
+   "events": 7,
+   "hours_per_event": 4.4,
+   "planned_share": 0.429,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 7,
+   "hours": 30.0,
+   "events": 6,
+   "hours_per_event": 5.0,
+   "planned_share": 0.167,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 27,
+   "hours": 27.0,
+   "events": 7,
+   "hours_per_event": 3.9,
+   "planned_share": 0.714,
+   "seg": 1,
+   "name": "Group A: ~45 events each, 5.5 h per event, 64% planned care"
+  },
+  {
+   "ID": 2,
+   "hours": 25.0,
+   "events": 6,
+   "hours_per_event": 4.2,
+   "planned_share": 0.333,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 29,
+   "hours": 21.0,
+   "events": 5,
+   "hours_per_event": 4.2,
+   "planned_share": 0.4,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 16,
+   "hours": 16.0,
+   "events": 2,
+   "hours_per_event": 8.0,
+   "planned_share": 0.5,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 21,
+   "hours": 16.0,
+   "events": 3,
+   "hours_per_event": 5.3,
+   "planned_share": 0.0,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 31,
+   "hours": 16.0,
+   "events": 3,
+   "hours_per_event": 5.3,
+   "planned_share": 0.0,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 32,
+   "hours": 16.0,
+   "events": 5,
+   "hours_per_event": 3.2,
+   "planned_share": 0.4,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  },
+  {
+   "ID": 19,
+   "hours": 6.0,
+   "events": 3,
+   "hours_per_event": 2.0,
+   "planned_share": 0.333,
+   "seg": 0,
+   "name": "Group C: ~6 events each, 4.7 h per event, 29% planned care"
+  }
+ ]
+}

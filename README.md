@@ -1,8 +1,10 @@
 # Who Is Absent? The Same Few People, Again and Again
 
-<p align="center"><img src="docs/screenshots/tab1.png" alt="Dashboard preview" width="320"></p>
+## [Open the live dashboard](https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/)
 
-**Live dashboard (works on a phone):** https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/
+<a href="https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/"><img src="docs/screenshots/tab1.png" alt="HR absenteeism dashboard" width="720"></a>
+
+https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/
 
 **Excel dashboard:** `HR_Absenteeism_Dashboard.xlsx` - the same story as a native Excel workbook: dark theme, KPI cards, charts, and an editable cost-per-hour input on the Impact sheet that recalculates every cost figure.
 

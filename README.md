@@ -4,6 +4,8 @@
 
 **Live dashboard (works on a phone):** https://anas-abdelhafeez.github.io/hr-absenteeism-analysis/
 
+**Excel dashboard:** `HR_Absenteeism_Dashboard.xlsx` - the same story as a native Excel workbook: dark theme, KPI cards, charts, and an editable cost-per-hour input on the Impact sheet that recalculates every cost figure.
+
 **One finding:** 5 of 36 people cause 41% of all lost hours, and they are largely the same people two years later. The 5 heaviest in 2007-08 caused 32% of the hours in 2009-10. Five random people would cause 14%.
 
 Story flow: Problem -> Impact -> Where -> Who -> Why -> When -> Fix, plus an appendix.
